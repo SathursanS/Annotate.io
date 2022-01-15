@@ -1,14 +1,25 @@
 import React, { useState } from 'react';
+import Box from '@mui/material/Box';
+import LinearProgress from '@mui/material/LinearProgress';
 import './uploadImage.css';
 
-const UploadImage = () => {
+const UploadImage = ({ setAnalysisInfo }) => {
   const [link, setLink] = useState('');
   const [loading, setLoading] = useState(false);
   const [loadingMessage, setLoadingMessage] = useState('');
 
-  const handleAnalyze = (path) => {
+  const handleAnalyze = async (path) => {
     setLoadingMessage('Analyzing Video');
     // Fetch the analysis
+    let response = await fetch('http://localhost:5000/assemblyAI', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ filename: path }),
+    });
+    let json = await response.json();
+    setAnalysisInfo(json);
     setLoading(false);
   };
 
@@ -112,7 +123,21 @@ const UploadImage = () => {
             or drop files here.
           </>
         )}
-        {loading && <label className="loading-message">{loadingMessage}</label>}
+        {loading && (
+          <div>
+            <label className="loading-message">{loadingMessage}</label>
+            {/* <Box
+              sx={{
+                width: '735px',
+                height: 10,
+                marginTop: '10px',
+                borderRadius: 5,
+              }}
+            >
+              <LinearProgress color="secondary" />
+            </Box> */}
+          </div>
+        )}
       </div>
     </div>
   );
