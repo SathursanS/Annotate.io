@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import UploadImage from './components/uploadImage/uploadImage';
+import Transcript from './components/transcript/transcript';
 import { ReactComponent as Logo } from './images/annotate-logo.svg';
 import './App.css';
 
@@ -21,9 +22,8 @@ function App() {
             </span>{' '}
             <span className="title-offset">nnotate.io</span>
           </div>
-          <UploadImage setAnalysisInfo={setAnalysisInfo} />
-          {/* Analysis Card Container Test */}
-          <div className="test-colour"></div>
+          <UploadImage />
+          <Transcript />
         </div>
       </div>
     </div>
