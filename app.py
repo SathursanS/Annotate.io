@@ -14,6 +14,8 @@ from time import sleep
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import (Mail, Attachment, FileContent, FileName, FileType, Disposition)
 
+import os
+from moviepy.editor import *
 
 
 logging.basicConfig(level=logging.INFO)
@@ -40,6 +42,9 @@ def fileUpload():
     destination="/".join([target, filename])
     file.save(destination)
     session['uploadFilePath']=destination
+
+    video = VideoFileClip(os.path.join(f'Upload/{filename}'))
+    video.audio.write_audiofile(os.path.join(f'Upload/{filename}.mp3'))
     
     return {'message': filename}
 
@@ -71,6 +76,7 @@ def emailSend():
     print(response.body)
     print(response.headers)
     return {'message': "Email Sent - Powered by Twillio"}
+
 
 def assemblyAI():
     headers = {
