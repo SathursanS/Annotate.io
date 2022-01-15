@@ -1,0 +1,3960 @@
+{
+  "acoustic_model": "assemblyai_default", 
+  "audio_duration": 174, 
+  "audio_end_at": null, 
+  "audio_start_from": null, 
+  "audio_url": "https://cdn.assemblyai.com/upload/8c24a2eb-47fd-4a09-abc5-ffade9f06b71", 
+  "auto_chapters": true, 
+  "auto_highlights": false, 
+  "auto_highlights_result": null, 
+  "boost_param": null, 
+  "chapters": [
+    {
+      "end": 16718, 
+      "gist": "who is kevin", 
+      "headline": "It's kevin getting his act together.", 
+      "start": 3290, 
+      "summary": "I was born in philadelphia in 1979, grew up in inner city. My mother raised two boys by herself. My father was in and out of my childhood. It's kevin getting his act together."
+    }, 
+    {
+      "end": 75086, 
+      "gist": "being a father & wife", 
+      "headline": "I started harvey productions because i didn't want to be the star that was just to work for hire.", 
+      "start": 16814, 
+      "summary": "I started harvey productions because i didn't want to be the star that was just to work for hire. I've had ten number one films. Those films have surpassed $4.2 billion in the box office."
+    }, 
+    {
+      "end": 114982, 
+      "gist": "the vc world", 
+      "headline": "We have about 35 companies that we've invested in.", 
+      "start": 75158, 
+      "summary": "We produce television, movies, develop and sell original ip. We have about 35 companies that we've invested in. So many people feel like you have a cap of opportunity in life."
+    }, 
+    {
+      "end": 161930, 
+      "gist": "the choice to open or shut the doors", 
+      "headline": "It's possible for us all if we truly believe so as heartbeat ventures grows, you'll see a real initiative in closing that big financial gap between my culture and mainstream america.", 
+      "start": 115056, 
+      "summary": "I came from the same place. I put my head down. I worked. I got opportunities. I made the best out of them. It's possible for us all if we truly believe so as heartbeat ventures grows, you'll see a real initiative in closing that big financial gap between my culture and mainstream america."
+    }
+  ], 
+  "confidence": 0.889945856573705, 
+  "content_safety": false, 
+  "content_safety_labels": {
+    "results": [], 
+    "status": "unavailable", 
+    "summary": {}
+  }, 
+  "disfluencies": false, 
+  "dual_channel": null, 
+  "entities": null, 
+  "entity_detection": false, 
+  "filter_profanity": false, 
+  "format_text": true, 
+  "iab_categories": true, 
+  "iab_categories_result": {
+    "results": [
+      {
+        "labels": [
+          {
+            "label": "FamilyAndRelationships>Parenting", 
+            "relevance": 0.16046181321144104
+          }, 
+          {
+            "label": "PopCulture>CelebrityFamilies", 
+            "relevance": 0.0078031644225120544
+          }, 
+          {
+            "label": "FamilyAndRelationships>Parenting>AdoptionAndFostering", 
+            "relevance": 0.004467777442187071
+          }, 
+          {
+            "label": "PopCulture>CelebrityDeaths", 
+            "relevance": 0.004380009137094021
+          }, 
+          {
+            "label": "FamilyAndRelationships>SingleLife", 
+            "relevance": 0.002229575300589204
+          }, 
+          {
+            "label": "MusicAndAudio>HipHopMusic", 
+            "relevance": 0.0022211105097085238
+          }, 
+          {
+            "label": "BooksAndLiterature>YoungAdultLiterature", 
+            "relevance": 0.0018249436980113387
+          }, 
+          {
+            "label": "BooksAndLiterature>Children'sLiterature", 
+            "relevance": 0.001556619070470333
+          }, 
+          {
+            "label": "MusicAndAudio>AlternativeMusic", 
+            "relevance": 0.0013715586392208934
+          }, 
+          {
+            "label": "FamilyAndRelationships>Parenting>ParentingChildrenAged4-11", 
+            "relevance": 0.0013688280014321208
+          }
+        ], 
+        "text": "I was born in Philadelphia in 1979, grew up in inner city. My mother raised two boys by herself. My father was in and out of my childhood. It's Kevin getting his act together. He wants you all to see how he's dance. Of course, we struggle financially, but my mom did a great job being a parent. I credit my mom for giving me the understanding of hard work, dedication. What you put into something is what you get out of it.", 
+        "timestamp": {
+          "end": 28200, 
+          "start": 3290
+        }
+      }, 
+      {
+        "labels": [
+          {
+            "label": "EventsAndAttractions>ComedyEvents", 
+            "relevance": 0.9200595617294312
+          }, 
+          {
+            "label": "Television>ComedyTV", 
+            "relevance": 0.729214072227478
+          }, 
+          {
+            "label": "Movies>ComedyMovies", 
+            "relevance": 0.25809094309806824
+          }, 
+          {
+            "label": "PopCulture>HumorAndSatire", 
+            "relevance": 0.006362859159708023
+          }, 
+          {
+            "label": "Movies>IndieAndArthouseMovies", 
+            "relevance": 0.004601584747433662
+          }, 
+          {
+            "label": "Movies>DocumentaryMovies", 
+            "relevance": 0.0039016471710056067
+          }, 
+          {
+            "label": "Movies>ActionAndAdventureMovies", 
+            "relevance": 0.0014531374908983707
+          }, 
+          {
+            "label": "Hobbies&Interests>ContentProduction>Screenwriting", 
+            "relevance": 0.001233765040524304
+          }, 
+          {
+            "label": "Movies>RomanceMovies", 
+            "relevance": 0.001123372814618051
+          }, 
+          {
+            "label": "Television>RealityTV", 
+            "relevance": 0.0010389545932412148
+          }
+        ], 
+        "text": "I did my first stand up show in 1998. Our first big break was just the last comedy festival. That comedy performance was watched by agents, execs managers. My acting career got to be explosive because of an amazing producer named Will Packer. He gave me an opportunity to start a movie called Sank Like a man. And that movie was set up for me to knock the ball out of the park. I've had ten number one films.", 
+        "timestamp": {
+          "end": 50882, 
+          "start": 29070
+        }
+      }, 
+      {
+        "labels": [
+          {
+            "label": "Movies>IndieAndArthouseMovies", 
+            "relevance": 0.6518586874008179
+          }, 
+          {
+            "label": "Movies>ComedyMovies", 
+            "relevance": 0.11937826871871948
+          }, 
+          {
+            "label": "Movies", 
+            "relevance": 0.09810425341129303
+          }, 
+          {
+            "label": "EventsAndAttractions>ComedyEvents", 
+            "relevance": 0.06178484857082367
+          }, 
+          {
+            "label": "Hobbies&Interests>ContentProduction>Screenwriting", 
+            "relevance": 0.02013007178902626
+          }, 
+          {
+            "label": "Movies>DocumentaryMovies", 
+            "relevance": 0.01835678704082966
+          }, 
+          {
+            "label": "Television>ComedyTV", 
+            "relevance": 0.015496719628572464
+          }, 
+          {
+            "label": "Movies>ActionAndAdventureMovies", 
+            "relevance": 0.010621498338878155
+          }, 
+          {
+            "label": "PopCulture>CelebrityStyle", 
+            "relevance": 0.008437221869826317
+          }, 
+          {
+            "label": "Television>RealityTV", 
+            "relevance": 0.0032597463577985764
+          }
+        ], 
+        "text": "Those films have surpassed $4.2 billion in the box office, and I am now the highest paid comedian in the world. Stardom is amazing, but I quickly realized that stardom only gets you so far. I started Harvey Productions because I didn't want to be the star that was just to work for hire. Starting a production company meant that I could actually be a part of the creative. That's when the business mind kind of kicked into overdrive.", 
+        "timestamp": {
+          "end": 75086, 
+          "start": 50966
+        }
+      }, 
+      {
+        "labels": [
+          {
+            "label": "BusinessAndFinance>Business>BusinessBanking&Finance>AngelInvestment", 
+            "relevance": 0.9972767233848572
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>Startups", 
+            "relevance": 0.9952503442764282
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>BusinessBanking&Finance>VentureCapital", 
+            "relevance": 0.9904036521911621
+          }, 
+          {
+            "label": "PersonalFinance>PersonalInvesting", 
+            "relevance": 0.004645636770874262
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>BusinessBanking&Finance>PrivateEquity", 
+            "relevance": 0.0028650518506765366
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>BusinessBanking&Finance>BusinessLoans", 
+            "relevance": 0.0012721281964331865
+          }, 
+          {
+            "label": "BusinessAndFinance>Business", 
+            "relevance": 0.0009251689189113677
+          }, 
+          {
+            "label": "Hobbies&Interests>ContentProduction", 
+            "relevance": 0.0009197105537168682
+          }, 
+          {
+            "label": "BusinessAndFinance>Industries>Non-ProfitOrganizations", 
+            "relevance": 0.0008080001571215689
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>SmallAndMedium-sizedBusiness", 
+            "relevance": 0.0007118962239474058
+          }
+        ], 
+        "text": "We produce television, movies, develop and sell original IP. There's a literature entity. The goal was to have something that acts as a complete circle that services everything in it. Then there's another world. The world adventure, the VC world. So I decided to create Heartbeat Ventures. It's all about financial inclusion. These are doors that were closed for quite some time, especially to my culture. We have about 35 companies that we've invested in.", 
+        "timestamp": {
+          "end": 101326, 
+          "start": 75158
+        }
+      }, 
+      {
+        "labels": [
+          {
+            "label": "Sports", 
+            "relevance": 0.8584439754486084
+          }, 
+          {
+            "label": "HealthyLiving>FitnessAndExercise>ParticipantSports", 
+            "relevance": 0.7090529799461365
+          }, 
+          {
+            "label": "Sports>CollegeSports", 
+            "relevance": 0.4719112813472748
+          }, 
+          {
+            "label": "HealthyLiving>FitnessAndExercise", 
+            "relevance": 0.1367124319076538
+          }, 
+          {
+            "label": "Sports>TrackAndField", 
+            "relevance": 0.1113167330622673
+          }, 
+          {
+            "label": "EventsAndAttractions>SportingEvents", 
+            "relevance": 0.10328145325183868
+          }, 
+          {
+            "label": "Sports>Bodybuilding", 
+            "relevance": 0.03971528261899948
+          }, 
+          {
+            "label": "Sports>ExtremeSports", 
+            "relevance": 0.025143926963210106
+          }, 
+          {
+            "label": "Sports>DisabledSports", 
+            "relevance": 0.020114893093705177
+          }, 
+          {
+            "label": "HealthyLiving>FitnessAndExercise>RunningAndJogging", 
+            "relevance": 0.01574091427028179
+          }
+        ], 
+        "text": "Athletics, beyond meat, their body liquid, IV, ate sleep. We've managed to put ourselves in position to be a real player in this state. So many people feel like you have a cap of opportunity in life. I don't look at it that way. I look at it as life presents you with so many doors, you just have the choice to turn them off and open them.", 
+        "timestamp": {
+          "end": 121500, 
+          "start": 101388
+        }
+      }, 
+      {
+        "labels": [
+          {
+            "label": "Education>SpecialEducation", 
+            "relevance": 0.16915468871593475
+          }, 
+          {
+            "label": "FamilyAndRelationships>Parenting>SpecialNeedsKids", 
+            "relevance": 0.06492964923381805
+          }, 
+          {
+            "label": "FamilyAndRelationships>Parenting>AdoptionAndFostering", 
+            "relevance": 0.03582494333386421
+          }, 
+          {
+            "label": "FamilyAndRelationships>Parenting>ParentingTeens", 
+            "relevance": 0.03171016275882721
+          }, 
+          {
+            "label": "FamilyAndRelationships>Parenting", 
+            "relevance": 0.03134337440133095
+          }, 
+          {
+            "label": "FamilyAndRelationships>Parenting>ParentingChildrenAged4-11", 
+            "relevance": 0.029110688716173172
+          }, 
+          {
+            "label": "Education>EarlyChildhoodEducation", 
+            "relevance": 0.025235235691070557
+          }, 
+          {
+            "label": "Education>AdultEducation", 
+            "relevance": 0.02309410832822323
+          }, 
+          {
+            "label": "FamilyAndRelationships>SingleLife", 
+            "relevance": 0.003750694217160344
+          }, 
+          {
+            "label": "Education>HomeworkAndStudy", 
+            "relevance": 0.002935677533969283
+          }
+        ], 
+        "text": "Where I come from, the little kids that look like me, we're not expected to make it. We're not expected to see the higher levels of life. It's a fact. My story does a lot more for those kids than people may think. To show that the dream is real, to say, hey, I came from the same place. I put my head down. I worked. I got opportunities. I made the best out of them.", 
+        "timestamp": {
+          "end": 145402, 
+          "start": 122430
+        }
+      }, 
+      {
+        "labels": [
+          {
+            "label": "BusinessAndFinance>Business>BusinessBanking&Finance>AngelInvestment", 
+            "relevance": 0.9893157482147217
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>Startups", 
+            "relevance": 0.9813599586486816
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>BusinessBanking&Finance>VentureCapital", 
+            "relevance": 0.946527361869812
+          }, 
+          {
+            "label": "PersonalFinance>PersonalInvesting", 
+            "relevance": 0.00515732541680336
+          }, 
+          {
+            "label": "Technology&Computing>Computing>Internet>SocialNetworking", 
+            "relevance": 0.0037688228767365217
+          }, 
+          {
+            "label": "BusinessAndFinance>Industries>Non-ProfitOrganizations", 
+            "relevance": 0.002672653878107667
+          }, 
+          {
+            "label": "Hobbies&Interests>ContentProduction", 
+            "relevance": 0.001879594405181706
+          }, 
+          {
+            "label": "BusinessAndFinance>Industries>HealthcareIndustry", 
+            "relevance": 0.0015000541461631656
+          }, 
+          {
+            "label": "BusinessAndFinance>Business>BusinessBanking&Finance>PrivateEquity", 
+            "relevance": 0.0014142184518277645
+          }, 
+          {
+            "label": "PopCulture>CelebrityStyle", 
+            "relevance": 0.0009750935714691877
+          }
+        ], 
+        "text": "But it's possible for us all if we truly believe so as Heartbeat Ventures grows, you'll see a real initiative in closing that big financial gap between my culture and mainstream America. My success is going to ultimately help close the gap.", 
+        "timestamp": {
+          "end": 161930, 
+          "start": 145416
+        }
+      }
+    ], 
+    "status": "success", 
+    "summary": {
+      "BusinessAndFinance>Business>BusinessBanking&Finance>AngelInvestment": 1.0, 
+      "BusinessAndFinance>Business>BusinessBanking&Finance>VentureCapital": 0.9749046564102173, 
+      "BusinessAndFinance>Business>Startups": 0.9951684474945068, 
+      "Education>SpecialEducation": 0.08532650023698807, 
+      "EventsAndAttractions>ComedyEvents": 0.4943816065788269, 
+      "EventsAndAttractions>SportingEvents": 0.052346378564834595, 
+      "FamilyAndRelationships>Parenting": 0.0965721383690834, 
+      "FamilyAndRelationships>Parenting>AdoptionAndFostering": 0.02029459737241268, 
+      "FamilyAndRelationships>Parenting>ParentingTeens": 0.016653884202241898, 
+      "FamilyAndRelationships>Parenting>SpecialNeedsKids": 0.03276602178812027, 
+      "HealthyLiving>FitnessAndExercise": 0.0689665824174881, 
+      "HealthyLiving>FitnessAndExercise>ParticipantSports": 0.35729312896728516, 
+      "Movies": 0.04979898780584335, 
+      "Movies>ComedyMovies": 0.19014045596122742, 
+      "Movies>IndieAndArthouseMovies": 0.3311481177806854, 
+      "Sports": 0.4323887825012207, 
+      "Sports>Bodybuilding": 0.02030511014163494, 
+      "Sports>CollegeSports": 0.23766039311885834, 
+      "Sports>TrackAndField": 0.05629609897732735, 
+      "Television>ComedyTV": 0.37485986948013306
+    }
+  }, 
+  "id": "or1jfcg21z-b19c-40f5-8029-0a16a412e791", 
+  "language_code": "en_us", 
+  "language_model": "assemblyai_default", 
+  "punctuate": true, 
+  "redact_pii": false, 
+  "redact_pii_audio": false, 
+  "redact_pii_audio_quality": null, 
+  "redact_pii_policies": null, 
+  "redact_pii_sub": null, 
+  "sentiment_analysis": false, 
+  "sentiment_analysis_results": null, 
+  "speaker_labels": false, 
+  "speed_boost": false, 
+  "status": "completed", 
+  "text": "I was born in Philadelphia in 1979, grew up in inner city. My mother raised two boys by herself. My father was in and out of my childhood. It's Kevin getting his act together. He wants you all to see how he's dance. Of course, we struggle financially, but my mom did a great job being a parent. I credit my mom for giving me the understanding of hard work, dedication. What you put into something is what you get out of it. I did my first stand up show in 1998. Our first big break was just the last comedy festival. That comedy performance was watched by agents, execs managers. My acting career got to be explosive because of an amazing producer named Will Packer. He gave me an opportunity to start a movie called Sank Like a man. And that movie was set up for me to knock the ball out of the park. I've had ten number one films. Those films have surpassed $4.2 billion in the box office, and I am now the highest paid comedian in the world. Stardom is amazing, but I quickly realized that stardom only gets you so far. I started Harvey Productions because I didn't want to be the star that was just to work for hire. Starting a production company meant that I could actually be a part of the creative. That's when the business mind kind of kicked into overdrive. We produce television, movies, develop and sell original IP. There's a literature entity. The goal was to have something that acts as a complete circle that services everything in it. Then there's another world. The world adventure, the VC world. So I decided to create Heartbeat Ventures. It's all about financial inclusion. These are doors that were closed for quite some time, especially to my culture. We have about 35 companies that we've invested in. Athletics, beyond meat, their body liquid, IV, ate sleep. We've managed to put ourselves in position to be a real player in this state. So many people feel like you have a cap of opportunity in life. I don't look at it that way. I look at it as life presents you with so many doors, you just have the choice to turn them off and open them. Where I come from, the little kids that look like me, we're not expected to make it. We're not expected to see the higher levels of life. It's a fact. My story does a lot more for those kids than people may think. To show that the dream is real, to say, hey, I came from the same place. I put my head down. I worked. I got opportunities. I made the best out of them. But it's possible for us all if we truly believe so as Heartbeat Ventures grows, you'll see a real initiative in closing that big financial gap between my culture and mainstream America. My success is going to ultimately help close the gap.", 
+  "utterances": null, 
+  "webhook_status_code": null, 
+  "webhook_url": null, 
+  "word_boost": [], 
+  "words": [
+    {
+      "confidence": 0.82748, 
+      "end": 3346, 
+      "speaker": null, 
+      "start": 3290, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.62192, 
+      "end": 3442, 
+      "speaker": null, 
+      "start": 3348, 
+      "text": "was"
+    }, 
+    {
+      "confidence": 0.70936, 
+      "end": 3626, 
+      "speaker": null, 
+      "start": 3456, 
+      "text": "born"
+    }, 
+    {
+      "confidence": 0.93939, 
+      "end": 3706, 
+      "speaker": null, 
+      "start": 3638, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.97274, 
+      "end": 4142, 
+      "speaker": null, 
+      "start": 3708, 
+      "text": "Philadelphia"
+    }, 
+    {
+      "confidence": 0.62326, 
+      "end": 4282, 
+      "speaker": null, 
+      "start": 4166, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.85, 
+      "end": 5482, 
+      "speaker": null, 
+      "start": 4296, 
+      "text": "1979,"
+    }, 
+    {
+      "confidence": 0.97298, 
+      "end": 5846, 
+      "speaker": null, 
+      "start": 5616, 
+      "text": "grew"
+    }, 
+    {
+      "confidence": 0.99807, 
+      "end": 5962, 
+      "speaker": null, 
+      "start": 5858, 
+      "text": "up"
+    }, 
+    {
+      "confidence": 0.98948, 
+      "end": 6118, 
+      "speaker": null, 
+      "start": 5976, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.8191, 
+      "end": 6362, 
+      "speaker": null, 
+      "start": 6144, 
+      "text": "inner"
+    }, 
+    {
+      "confidence": 0.99833, 
+      "end": 6826, 
+      "speaker": null, 
+      "start": 6386, 
+      "text": "city."
+    }, 
+    {
+      "confidence": 0.99909, 
+      "end": 7198, 
+      "speaker": null, 
+      "start": 6948, 
+      "text": "My"
+    }, 
+    {
+      "confidence": 0.98547, 
+      "end": 7418, 
+      "speaker": null, 
+      "start": 7224, 
+      "text": "mother"
+    }, 
+    {
+      "confidence": 0.75159, 
+      "end": 7790, 
+      "speaker": null, 
+      "start": 7454, 
+      "text": "raised"
+    }, 
+    {
+      "confidence": 0.99847, 
+      "end": 8074, 
+      "speaker": null, 
+      "start": 7850, 
+      "text": "two"
+    }, 
+    {
+      "confidence": 0.99617, 
+      "end": 8570, 
+      "speaker": null, 
+      "start": 8112, 
+      "text": "boys"
+    }, 
+    {
+      "confidence": 0.99937, 
+      "end": 8854, 
+      "speaker": null, 
+      "start": 8630, 
+      "text": "by"
+    }, 
+    {
+      "confidence": 0.82356, 
+      "end": 9554, 
+      "speaker": null, 
+      "start": 8892, 
+      "text": "herself."
+    }, 
+    {
+      "confidence": 0.99923, 
+      "end": 10054, 
+      "speaker": null, 
+      "start": 9722, 
+      "text": "My"
+    }, 
+    {
+      "confidence": 0.99852, 
+      "end": 10406, 
+      "speaker": null, 
+      "start": 10092, 
+      "text": "father"
+    }, 
+    {
+      "confidence": 0.99928, 
+      "end": 10714, 
+      "speaker": null, 
+      "start": 10478, 
+      "text": "was"
+    }, 
+    {
+      "confidence": 0.65309, 
+      "end": 10918, 
+      "speaker": null, 
+      "start": 10752, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.99585, 
+      "end": 11062, 
+      "speaker": null, 
+      "start": 10944, 
+      "text": "and"
+    }, 
+    {
+      "confidence": 0.56537, 
+      "end": 11506, 
+      "speaker": null, 
+      "start": 11076, 
+      "text": "out"
+    }, 
+    {
+      "confidence": 0.9972, 
+      "end": 11878, 
+      "speaker": null, 
+      "start": 11628, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.99969, 
+      "end": 12058, 
+      "speaker": null, 
+      "start": 11904, 
+      "text": "my"
+    }, 
+    {
+      "confidence": 0.82007, 
+      "end": 12914, 
+      "speaker": null, 
+      "start": 12084, 
+      "text": "childhood."
+    }, 
+    {
+      "confidence": 0.5478, 
+      "end": 13418, 
+      "speaker": null, 
+      "start": 13082, 
+      "text": "It's"
+    }, 
+    {
+      "confidence": 0.47817, 
+      "end": 13958, 
+      "speaker": null, 
+      "start": 13454, 
+      "text": "Kevin"
+    }, 
+    {
+      "confidence": 0.99825, 
+      "end": 14350, 
+      "speaker": null, 
+      "start": 14054, 
+      "text": "getting"
+    }, 
+    {
+      "confidence": 0.99887, 
+      "end": 14578, 
+      "speaker": null, 
+      "start": 14400, 
+      "text": "his"
+    }, 
+    {
+      "confidence": 0.98818, 
+      "end": 14794, 
+      "speaker": null, 
+      "start": 14604, 
+      "text": "act"
+    }, 
+    {
+      "confidence": 0.9998, 
+      "end": 15070, 
+      "speaker": null, 
+      "start": 14832, 
+      "text": "together."
+    }, 
+    {
+      "confidence": 0.49426, 
+      "end": 15298, 
+      "speaker": null, 
+      "start": 15120, 
+      "text": "He"
+    }, 
+    {
+      "confidence": 0.9265, 
+      "end": 15442, 
+      "speaker": null, 
+      "start": 15324, 
+      "text": "wants"
+    }, 
+    {
+      "confidence": 0.85456, 
+      "end": 15562, 
+      "speaker": null, 
+      "start": 15456, 
+      "text": "you"
+    }, 
+    {
+      "confidence": 0.49076, 
+      "end": 15646, 
+      "speaker": null, 
+      "start": 15576, 
+      "text": "all"
+    }, 
+    {
+      "confidence": 0.87881, 
+      "end": 15742, 
+      "speaker": null, 
+      "start": 15648, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99868, 
+      "end": 15862, 
+      "speaker": null, 
+      "start": 15756, 
+      "text": "see"
+    }, 
+    {
+      "confidence": 0.91267, 
+      "end": 16018, 
+      "speaker": null, 
+      "start": 15876, 
+      "text": "how"
+    }, 
+    {
+      "confidence": 0.80094, 
+      "end": 16238, 
+      "speaker": null, 
+      "start": 16044, 
+      "text": "he's"
+    }, 
+    {
+      "confidence": 0.29218, 
+      "end": 16718, 
+      "speaker": null, 
+      "start": 16274, 
+      "text": "dance."
+    }, 
+    {
+      "confidence": 0.52218, 
+      "end": 17002, 
+      "speaker": null, 
+      "start": 16814, 
+      "text": "Of"
+    }, 
+    {
+      "confidence": 0.99996, 
+      "end": 17158, 
+      "speaker": null, 
+      "start": 17016, 
+      "text": "course,"
+    }, 
+    {
+      "confidence": 0.99396, 
+      "end": 17302, 
+      "speaker": null, 
+      "start": 17184, 
+      "text": "we"
+    }, 
+    {
+      "confidence": 0.42088, 
+      "end": 17618, 
+      "speaker": null, 
+      "start": 17316, 
+      "text": "struggle"
+    }, 
+    {
+      "confidence": 0.65706, 
+      "end": 18230, 
+      "speaker": null, 
+      "start": 17654, 
+      "text": "financially,"
+    }, 
+    {
+      "confidence": 0.97921, 
+      "end": 18598, 
+      "speaker": null, 
+      "start": 18350, 
+      "text": "but"
+    }, 
+    {
+      "confidence": 0.99732, 
+      "end": 18778, 
+      "speaker": null, 
+      "start": 18624, 
+      "text": "my"
+    }, 
+    {
+      "confidence": 0.99692, 
+      "end": 19030, 
+      "speaker": null, 
+      "start": 18804, 
+      "text": "mom"
+    }, 
+    {
+      "confidence": 0.99389, 
+      "end": 19222, 
+      "speaker": null, 
+      "start": 19080, 
+      "text": "did"
+    }, 
+    {
+      "confidence": 0.75836, 
+      "end": 19342, 
+      "speaker": null, 
+      "start": 19236, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99964, 
+      "end": 19498, 
+      "speaker": null, 
+      "start": 19356, 
+      "text": "great"
+    }, 
+    {
+      "confidence": 0.99998, 
+      "end": 19678, 
+      "speaker": null, 
+      "start": 19524, 
+      "text": "job"
+    }, 
+    {
+      "confidence": 0.93191, 
+      "end": 19894, 
+      "speaker": null, 
+      "start": 19704, 
+      "text": "being"
+    }, 
+    {
+      "confidence": 0.95401, 
+      "end": 20026, 
+      "speaker": null, 
+      "start": 19932, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.66189, 
+      "end": 20374, 
+      "speaker": null, 
+      "start": 20028, 
+      "text": "parent."
+    }, 
+    {
+      "confidence": 0.98859, 
+      "end": 20698, 
+      "speaker": null, 
+      "start": 20472, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.9969, 
+      "end": 20986, 
+      "speaker": null, 
+      "start": 20724, 
+      "text": "credit"
+    }, 
+    {
+      "confidence": 0.9996, 
+      "end": 21238, 
+      "speaker": null, 
+      "start": 21048, 
+      "text": "my"
+    }, 
+    {
+      "confidence": 0.9978, 
+      "end": 21598, 
+      "speaker": null, 
+      "start": 21264, 
+      "text": "mom"
+    }, 
+    {
+      "confidence": 0.99929, 
+      "end": 22186, 
+      "speaker": null, 
+      "start": 21684, 
+      "text": "for"
+    }, 
+    {
+      "confidence": 0.99225, 
+      "end": 22594, 
+      "speaker": null, 
+      "start": 22308, 
+      "text": "giving"
+    }, 
+    {
+      "confidence": 0.99584, 
+      "end": 22834, 
+      "speaker": null, 
+      "start": 22632, 
+      "text": "me"
+    }, 
+    {
+      "confidence": 0.9946, 
+      "end": 23038, 
+      "speaker": null, 
+      "start": 22872, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99232, 
+      "end": 23786, 
+      "speaker": null, 
+      "start": 23064, 
+      "text": "understanding"
+    }, 
+    {
+      "confidence": 0.99894, 
+      "end": 24310, 
+      "speaker": null, 
+      "start": 23858, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.50861, 
+      "end": 24658, 
+      "speaker": null, 
+      "start": 24420, 
+      "text": "hard"
+    }, 
+    {
+      "confidence": 0.74441, 
+      "end": 24910, 
+      "speaker": null, 
+      "start": 24684, 
+      "text": "work,"
+    }, 
+    {
+      "confidence": 0.98681, 
+      "end": 25598, 
+      "speaker": null, 
+      "start": 24960, 
+      "text": "dedication."
+    }, 
+    {
+      "confidence": 0.8604, 
+      "end": 25882, 
+      "speaker": null, 
+      "start": 25694, 
+      "text": "What"
+    }, 
+    {
+      "confidence": 0.99705, 
+      "end": 26002, 
+      "speaker": null, 
+      "start": 25896, 
+      "text": "you"
+    }, 
+    {
+      "confidence": 0.51912, 
+      "end": 26158, 
+      "speaker": null, 
+      "start": 26016, 
+      "text": "put"
+    }, 
+    {
+      "confidence": 0.83381, 
+      "end": 26374, 
+      "speaker": null, 
+      "start": 26184, 
+      "text": "into"
+    }, 
+    {
+      "confidence": 0.9989, 
+      "end": 26686, 
+      "speaker": null, 
+      "start": 26412, 
+      "text": "something"
+    }, 
+    {
+      "confidence": 0.97469, 
+      "end": 26902, 
+      "speaker": null, 
+      "start": 26748, 
+      "text": "is"
+    }, 
+    {
+      "confidence": 0.99511, 
+      "end": 27022, 
+      "speaker": null, 
+      "start": 26916, 
+      "text": "what"
+    }, 
+    {
+      "confidence": 0.99606, 
+      "end": 27178, 
+      "speaker": null, 
+      "start": 27036, 
+      "text": "you"
+    }, 
+    {
+      "confidence": 0.99889, 
+      "end": 27358, 
+      "speaker": null, 
+      "start": 27204, 
+      "text": "get"
+    }, 
+    {
+      "confidence": 0.99908, 
+      "end": 27502, 
+      "speaker": null, 
+      "start": 27384, 
+      "text": "out"
+    }, 
+    {
+      "confidence": 0.99498, 
+      "end": 27622, 
+      "speaker": null, 
+      "start": 27516, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.95828, 
+      "end": 28200, 
+      "speaker": null, 
+      "start": 27636, 
+      "text": "it."
+    }, 
+    {
+      "confidence": 0.9823, 
+      "end": 29362, 
+      "speaker": null, 
+      "start": 29070, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.67352, 
+      "end": 29518, 
+      "speaker": null, 
+      "start": 29376, 
+      "text": "did"
+    }, 
+    {
+      "confidence": 0.9994, 
+      "end": 29698, 
+      "speaker": null, 
+      "start": 29544, 
+      "text": "my"
+    }, 
+    {
+      "confidence": 0.99856, 
+      "end": 29914, 
+      "speaker": null, 
+      "start": 29724, 
+      "text": "first"
+    }, 
+    {
+      "confidence": 0.81426, 
+      "end": 30154, 
+      "speaker": null, 
+      "start": 29952, 
+      "text": "stand"
+    }, 
+    {
+      "confidence": 0.52748, 
+      "end": 30358, 
+      "speaker": null, 
+      "start": 30192, 
+      "text": "up"
+    }, 
+    {
+      "confidence": 0.99667, 
+      "end": 30610, 
+      "speaker": null, 
+      "start": 30384, 
+      "text": "show"
+    }, 
+    {
+      "confidence": 0.72949, 
+      "end": 30946, 
+      "speaker": null, 
+      "start": 30660, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.64, 
+      "end": 32086, 
+      "speaker": null, 
+      "start": 31008, 
+      "text": "1998."
+    }, 
+    {
+      "confidence": 0.54637, 
+      "end": 32338, 
+      "speaker": null, 
+      "start": 32148, 
+      "text": "Our"
+    }, 
+    {
+      "confidence": 0.99825, 
+      "end": 32590, 
+      "speaker": null, 
+      "start": 32364, 
+      "text": "first"
+    }, 
+    {
+      "confidence": 0.99839, 
+      "end": 32818, 
+      "speaker": null, 
+      "start": 32640, 
+      "text": "big"
+    }, 
+    {
+      "confidence": 0.99932, 
+      "end": 33106, 
+      "speaker": null, 
+      "start": 32844, 
+      "text": "break"
+    }, 
+    {
+      "confidence": 0.98482, 
+      "end": 33394, 
+      "speaker": null, 
+      "start": 33168, 
+      "text": "was"
+    }, 
+    {
+      "confidence": 0.66792, 
+      "end": 33634, 
+      "speaker": null, 
+      "start": 33432, 
+      "text": "just"
+    }, 
+    {
+      "confidence": 0.57889, 
+      "end": 33766, 
+      "speaker": null, 
+      "start": 33672, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.97187, 
+      "end": 33970, 
+      "speaker": null, 
+      "start": 33768, 
+      "text": "last"
+    }, 
+    {
+      "confidence": 0.98888, 
+      "end": 34382, 
+      "speaker": null, 
+      "start": 34020, 
+      "text": "comedy"
+    }, 
+    {
+      "confidence": 0.71573, 
+      "end": 34922, 
+      "speaker": null, 
+      "start": 34406, 
+      "text": "festival."
+    }, 
+    {
+      "confidence": 0.99651, 
+      "end": 35254, 
+      "speaker": null, 
+      "start": 35006, 
+      "text": "That"
+    }, 
+    {
+      "confidence": 0.84025, 
+      "end": 35678, 
+      "speaker": null, 
+      "start": 35292, 
+      "text": "comedy"
+    }, 
+    {
+      "confidence": 0.90962, 
+      "end": 36266, 
+      "speaker": null, 
+      "start": 35714, 
+      "text": "performance"
+    }, 
+    {
+      "confidence": 0.99936, 
+      "end": 36790, 
+      "speaker": null, 
+      "start": 36338, 
+      "text": "was"
+    }, 
+    {
+      "confidence": 0.97241, 
+      "end": 37430, 
+      "speaker": null, 
+      "start": 36900, 
+      "text": "watched"
+    }, 
+    {
+      "confidence": 0.99967, 
+      "end": 37822, 
+      "speaker": null, 
+      "start": 37490, 
+      "text": "by"
+    }, 
+    {
+      "confidence": 0.80257, 
+      "end": 38350, 
+      "speaker": null, 
+      "start": 37896, 
+      "text": "agents,"
+    }, 
+    {
+      "confidence": 0.42626, 
+      "end": 39182, 
+      "speaker": null, 
+      "start": 38460, 
+      "text": "execs"
+    }, 
+    {
+      "confidence": 0.94811, 
+      "end": 40058, 
+      "speaker": null, 
+      "start": 39266, 
+      "text": "managers."
+    }, 
+    {
+      "confidence": 0.99864, 
+      "end": 40342, 
+      "speaker": null, 
+      "start": 40154, 
+      "text": "My"
+    }, 
+    {
+      "confidence": 0.43282, 
+      "end": 40658, 
+      "speaker": null, 
+      "start": 40356, 
+      "text": "acting"
+    }, 
+    {
+      "confidence": 0.99758, 
+      "end": 40922, 
+      "speaker": null, 
+      "start": 40694, 
+      "text": "career"
+    }, 
+    {
+      "confidence": 0.9846, 
+      "end": 41098, 
+      "speaker": null, 
+      "start": 40946, 
+      "text": "got"
+    }, 
+    {
+      "confidence": 0.99518, 
+      "end": 41206, 
+      "speaker": null, 
+      "start": 41124, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99084, 
+      "end": 41338, 
+      "speaker": null, 
+      "start": 41208, 
+      "text": "be"
+    }, 
+    {
+      "confidence": 0.80304, 
+      "end": 41834, 
+      "speaker": null, 
+      "start": 41364, 
+      "text": "explosive"
+    }, 
+    {
+      "confidence": 0.99872, 
+      "end": 42094, 
+      "speaker": null, 
+      "start": 41882, 
+      "text": "because"
+    }, 
+    {
+      "confidence": 0.92545, 
+      "end": 42262, 
+      "speaker": null, 
+      "start": 42132, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.97478, 
+      "end": 42382, 
+      "speaker": null, 
+      "start": 42276, 
+      "text": "an"
+    }, 
+    {
+      "confidence": 0.99815, 
+      "end": 42646, 
+      "speaker": null, 
+      "start": 42396, 
+      "text": "amazing"
+    }, 
+    {
+      "confidence": 0.99234, 
+      "end": 43082, 
+      "speaker": null, 
+      "start": 42708, 
+      "text": "producer"
+    }, 
+    {
+      "confidence": 0.99183, 
+      "end": 43322, 
+      "speaker": null, 
+      "start": 43106, 
+      "text": "named"
+    }, 
+    {
+      "confidence": 0.95401, 
+      "end": 43498, 
+      "speaker": null, 
+      "start": 43346, 
+      "text": "Will"
+    }, 
+    {
+      "confidence": 0.82174, 
+      "end": 44030, 
+      "speaker": null, 
+      "start": 43524, 
+      "text": "Packer."
+    }, 
+    {
+      "confidence": 0.98644, 
+      "end": 44278, 
+      "speaker": null, 
+      "start": 44090, 
+      "text": "He"
+    }, 
+    {
+      "confidence": 0.9999, 
+      "end": 44458, 
+      "speaker": null, 
+      "start": 44304, 
+      "text": "gave"
+    }, 
+    {
+      "confidence": 0.997, 
+      "end": 44566, 
+      "speaker": null, 
+      "start": 44484, 
+      "text": "me"
+    }, 
+    {
+      "confidence": 0.98234, 
+      "end": 44662, 
+      "speaker": null, 
+      "start": 44568, 
+      "text": "an"
+    }, 
+    {
+      "confidence": 0.99938, 
+      "end": 44926, 
+      "speaker": null, 
+      "start": 44676, 
+      "text": "opportunity"
+    }, 
+    {
+      "confidence": 0.93841, 
+      "end": 45142, 
+      "speaker": null, 
+      "start": 44988, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99174, 
+      "end": 45298, 
+      "speaker": null, 
+      "start": 45156, 
+      "text": "start"
+    }, 
+    {
+      "confidence": 0.94, 
+      "end": 45406, 
+      "speaker": null, 
+      "start": 45324, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99181, 
+      "end": 45602, 
+      "speaker": null, 
+      "start": 45408, 
+      "text": "movie"
+    }, 
+    {
+      "confidence": 0.92792, 
+      "end": 45778, 
+      "speaker": null, 
+      "start": 45626, 
+      "text": "called"
+    }, 
+    {
+      "confidence": 0.11543, 
+      "end": 46046, 
+      "speaker": null, 
+      "start": 45804, 
+      "text": "Sank"
+    }, 
+    {
+      "confidence": 0.99731, 
+      "end": 46198, 
+      "speaker": null, 
+      "start": 46058, 
+      "text": "Like"
+    }, 
+    {
+      "confidence": 0.98071, 
+      "end": 46342, 
+      "speaker": null, 
+      "start": 46224, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99414, 
+      "end": 46606, 
+      "speaker": null, 
+      "start": 46356, 
+      "text": "man."
+    }, 
+    {
+      "confidence": 0.92174, 
+      "end": 46822, 
+      "speaker": null, 
+      "start": 46668, 
+      "text": "And"
+    }, 
+    {
+      "confidence": 0.69942, 
+      "end": 46978, 
+      "speaker": null, 
+      "start": 46836, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.68564, 
+      "end": 47258, 
+      "speaker": null, 
+      "start": 47004, 
+      "text": "movie"
+    }, 
+    {
+      "confidence": 0.99452, 
+      "end": 47458, 
+      "speaker": null, 
+      "start": 47294, 
+      "text": "was"
+    }, 
+    {
+      "confidence": 0.99954, 
+      "end": 47638, 
+      "speaker": null, 
+      "start": 47484, 
+      "text": "set"
+    }, 
+    {
+      "confidence": 0.98085, 
+      "end": 47818, 
+      "speaker": null, 
+      "start": 47664, 
+      "text": "up"
+    }, 
+    {
+      "confidence": 0.99864, 
+      "end": 47962, 
+      "speaker": null, 
+      "start": 47844, 
+      "text": "for"
+    }, 
+    {
+      "confidence": 0.99985, 
+      "end": 48082, 
+      "speaker": null, 
+      "start": 47976, 
+      "text": "me"
+    }, 
+    {
+      "confidence": 0.99664, 
+      "end": 48202, 
+      "speaker": null, 
+      "start": 48096, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.76661, 
+      "end": 48458, 
+      "speaker": null, 
+      "start": 48216, 
+      "text": "knock"
+    }, 
+    {
+      "confidence": 0.99699, 
+      "end": 48622, 
+      "speaker": null, 
+      "start": 48494, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99867, 
+      "end": 48878, 
+      "speaker": null, 
+      "start": 48636, 
+      "text": "ball"
+    }, 
+    {
+      "confidence": 0.99967, 
+      "end": 49006, 
+      "speaker": null, 
+      "start": 48914, 
+      "text": "out"
+    }, 
+    {
+      "confidence": 0.61514, 
+      "end": 49102, 
+      "speaker": null, 
+      "start": 49008, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.99755, 
+      "end": 49222, 
+      "speaker": null, 
+      "start": 49116, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.97147, 
+      "end": 49514, 
+      "speaker": null, 
+      "start": 49236, 
+      "text": "park."
+    }, 
+    {
+      "confidence": 0.55831, 
+      "end": 49802, 
+      "speaker": null, 
+      "start": 49562, 
+      "text": "I've"
+    }, 
+    {
+      "confidence": 0.99851, 
+      "end": 49942, 
+      "speaker": null, 
+      "start": 49826, 
+      "text": "had"
+    }, 
+    {
+      "confidence": 0.90869, 
+      "end": 50098, 
+      "speaker": null, 
+      "start": 49956, 
+      "text": "ten"
+    }, 
+    {
+      "confidence": 0.40246, 
+      "end": 50278, 
+      "speaker": null, 
+      "start": 50124, 
+      "text": "number"
+    }, 
+    {
+      "confidence": 0.98298, 
+      "end": 50458, 
+      "speaker": null, 
+      "start": 50304, 
+      "text": "one"
+    }, 
+    {
+      "confidence": 0.98022, 
+      "end": 50882, 
+      "speaker": null, 
+      "start": 50484, 
+      "text": "films."
+    }, 
+    {
+      "confidence": 0.99792, 
+      "end": 51214, 
+      "speaker": null, 
+      "start": 50966, 
+      "text": "Those"
+    }, 
+    {
+      "confidence": 0.99597, 
+      "end": 51518, 
+      "speaker": null, 
+      "start": 51252, 
+      "text": "films"
+    }, 
+    {
+      "confidence": 0.90291, 
+      "end": 51718, 
+      "speaker": null, 
+      "start": 51554, 
+      "text": "have"
+    }, 
+    {
+      "confidence": 0.5304, 
+      "end": 52334, 
+      "speaker": null, 
+      "start": 51744, 
+      "text": "surpassed"
+    }, 
+    {
+      "confidence": 0.96, 
+      "end": 52998, 
+      "speaker": null, 
+      "start": 52382, 
+      "text": "$4.2"
+    }, 
+    {
+      "confidence": 0.96, 
+      "end": 53650, 
+      "speaker": null, 
+      "start": 53008, 
+      "text": "billion"
+    }, 
+    {
+      "confidence": 0.98089, 
+      "end": 53842, 
+      "speaker": null, 
+      "start": 53700, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.83043, 
+      "end": 53926, 
+      "speaker": null, 
+      "start": 53856, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.999, 
+      "end": 54130, 
+      "speaker": null, 
+      "start": 53928, 
+      "text": "box"
+    }, 
+    {
+      "confidence": 0.99725, 
+      "end": 54538, 
+      "speaker": null, 
+      "start": 54180, 
+      "text": "office,"
+    }, 
+    {
+      "confidence": 0.92662, 
+      "end": 54946, 
+      "speaker": null, 
+      "start": 54624, 
+      "text": "and"
+    }, 
+    {
+      "confidence": 0.93979, 
+      "end": 55198, 
+      "speaker": null, 
+      "start": 55008, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.96963, 
+      "end": 55378, 
+      "speaker": null, 
+      "start": 55224, 
+      "text": "am"
+    }, 
+    {
+      "confidence": 0.99274, 
+      "end": 55594, 
+      "speaker": null, 
+      "start": 55404, 
+      "text": "now"
+    }, 
+    {
+      "confidence": 0.99338, 
+      "end": 55906, 
+      "speaker": null, 
+      "start": 55632, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99646, 
+      "end": 56258, 
+      "speaker": null, 
+      "start": 55968, 
+      "text": "highest"
+    }, 
+    {
+      "confidence": 0.97067, 
+      "end": 56458, 
+      "speaker": null, 
+      "start": 56294, 
+      "text": "paid"
+    }, 
+    {
+      "confidence": 0.55225, 
+      "end": 56858, 
+      "speaker": null, 
+      "start": 56484, 
+      "text": "comedian"
+    }, 
+    {
+      "confidence": 0.99665, 
+      "end": 57022, 
+      "speaker": null, 
+      "start": 56894, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.98753, 
+      "end": 57142, 
+      "speaker": null, 
+      "start": 57036, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99956, 
+      "end": 57442, 
+      "speaker": null, 
+      "start": 57156, 
+      "text": "world."
+    }, 
+    {
+      "confidence": 0.54284, 
+      "end": 57902, 
+      "speaker": null, 
+      "start": 57516, 
+      "text": "Stardom"
+    }, 
+    {
+      "confidence": 0.99738, 
+      "end": 58078, 
+      "speaker": null, 
+      "start": 57926, 
+      "text": "is"
+    }, 
+    {
+      "confidence": 0.99985, 
+      "end": 58510, 
+      "speaker": null, 
+      "start": 58104, 
+      "text": "amazing,"
+    }, 
+    {
+      "confidence": 0.97945, 
+      "end": 58822, 
+      "speaker": null, 
+      "start": 58620, 
+      "text": "but"
+    }, 
+    {
+      "confidence": 0.99398, 
+      "end": 58978, 
+      "speaker": null, 
+      "start": 58836, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.99988, 
+      "end": 59266, 
+      "speaker": null, 
+      "start": 59004, 
+      "text": "quickly"
+    }, 
+    {
+      "confidence": 0.61282, 
+      "end": 59846, 
+      "speaker": null, 
+      "start": 59328, 
+      "text": "realized"
+    }, 
+    {
+      "confidence": 0.99879, 
+      "end": 60298, 
+      "speaker": null, 
+      "start": 59918, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.45342, 
+      "end": 60818, 
+      "speaker": null, 
+      "start": 60384, 
+      "text": "stardom"
+    }, 
+    {
+      "confidence": 0.62227, 
+      "end": 61090, 
+      "speaker": null, 
+      "start": 60854, 
+      "text": "only"
+    }, 
+    {
+      "confidence": 0.96274, 
+      "end": 61354, 
+      "speaker": null, 
+      "start": 61140, 
+      "text": "gets"
+    }, 
+    {
+      "confidence": 0.99699, 
+      "end": 61558, 
+      "speaker": null, 
+      "start": 61392, 
+      "text": "you"
+    }, 
+    {
+      "confidence": 0.99936, 
+      "end": 61774, 
+      "speaker": null, 
+      "start": 61584, 
+      "text": "so"
+    }, 
+    {
+      "confidence": 0.99915, 
+      "end": 62400, 
+      "speaker": null, 
+      "start": 61812, 
+      "text": "far."
+    }, 
+    {
+      "confidence": 0.93766, 
+      "end": 63118, 
+      "speaker": null, 
+      "start": 62790, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.92298, 
+      "end": 63334, 
+      "speaker": null, 
+      "start": 63144, 
+      "text": "started"
+    }, 
+    {
+      "confidence": 0.48913, 
+      "end": 63698, 
+      "speaker": null, 
+      "start": 63372, 
+      "text": "Harvey"
+    }, 
+    {
+      "confidence": 0.57592, 
+      "end": 64154, 
+      "speaker": null, 
+      "start": 63734, 
+      "text": "Productions"
+    }, 
+    {
+      "confidence": 0.99893, 
+      "end": 64558, 
+      "speaker": null, 
+      "start": 64202, 
+      "text": "because"
+    }, 
+    {
+      "confidence": 0.99873, 
+      "end": 64858, 
+      "speaker": null, 
+      "start": 64644, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.91498, 
+      "end": 65078, 
+      "speaker": null, 
+      "start": 64884, 
+      "text": "didn't"
+    }, 
+    {
+      "confidence": 0.99974, 
+      "end": 65242, 
+      "speaker": null, 
+      "start": 65114, 
+      "text": "want"
+    }, 
+    {
+      "confidence": 0.63489, 
+      "end": 65434, 
+      "speaker": null, 
+      "start": 65256, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99788, 
+      "end": 65854, 
+      "speaker": null, 
+      "start": 65472, 
+      "text": "be"
+    }, 
+    {
+      "confidence": 0.54362, 
+      "end": 66250, 
+      "speaker": null, 
+      "start": 65952, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.54373, 
+      "end": 66550, 
+      "speaker": null, 
+      "start": 66300, 
+      "text": "star"
+    }, 
+    {
+      "confidence": 0.92226, 
+      "end": 66778, 
+      "speaker": null, 
+      "start": 66600, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.98968, 
+      "end": 66922, 
+      "speaker": null, 
+      "start": 66804, 
+      "text": "was"
+    }, 
+    {
+      "confidence": 0.98934, 
+      "end": 67078, 
+      "speaker": null, 
+      "start": 66936, 
+      "text": "just"
+    }, 
+    {
+      "confidence": 0.60673, 
+      "end": 67294, 
+      "speaker": null, 
+      "start": 67104, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99918, 
+      "end": 67642, 
+      "speaker": null, 
+      "start": 67332, 
+      "text": "work"
+    }, 
+    {
+      "confidence": 0.99616, 
+      "end": 67954, 
+      "speaker": null, 
+      "start": 67716, 
+      "text": "for"
+    }, 
+    {
+      "confidence": 0.62642, 
+      "end": 68402, 
+      "speaker": null, 
+      "start": 67992, 
+      "text": "hire."
+    }, 
+    {
+      "confidence": 0.99386, 
+      "end": 68734, 
+      "speaker": null, 
+      "start": 68486, 
+      "text": "Starting"
+    }, 
+    {
+      "confidence": 0.71972, 
+      "end": 68902, 
+      "speaker": null, 
+      "start": 68772, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99771, 
+      "end": 69278, 
+      "speaker": null, 
+      "start": 68916, 
+      "text": "production"
+    }, 
+    {
+      "confidence": 0.54893, 
+      "end": 69586, 
+      "speaker": null, 
+      "start": 69314, 
+      "text": "company"
+    }, 
+    {
+      "confidence": 0.99005, 
+      "end": 69866, 
+      "speaker": null, 
+      "start": 69648, 
+      "text": "meant"
+    }, 
+    {
+      "confidence": 0.50939, 
+      "end": 70018, 
+      "speaker": null, 
+      "start": 69878, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.99861, 
+      "end": 70162, 
+      "speaker": null, 
+      "start": 70044, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.97256, 
+      "end": 70318, 
+      "speaker": null, 
+      "start": 70176, 
+      "text": "could"
+    }, 
+    {
+      "confidence": 0.99808, 
+      "end": 70678, 
+      "speaker": null, 
+      "start": 70344, 
+      "text": "actually"
+    }, 
+    {
+      "confidence": 0.99806, 
+      "end": 70942, 
+      "speaker": null, 
+      "start": 70764, 
+      "text": "be"
+    }, 
+    {
+      "confidence": 0.84417, 
+      "end": 71062, 
+      "speaker": null, 
+      "start": 70956, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99989, 
+      "end": 71182, 
+      "speaker": null, 
+      "start": 71076, 
+      "text": "part"
+    }, 
+    {
+      "confidence": 0.99964, 
+      "end": 71266, 
+      "speaker": null, 
+      "start": 71196, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.98433, 
+      "end": 71398, 
+      "speaker": null, 
+      "start": 71268, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99059, 
+      "end": 71942, 
+      "speaker": null, 
+      "start": 71424, 
+      "text": "creative."
+    }, 
+    {
+      "confidence": 0.985, 
+      "end": 72362, 
+      "speaker": null, 
+      "start": 72026, 
+      "text": "That's"
+    }, 
+    {
+      "confidence": 0.99588, 
+      "end": 72538, 
+      "speaker": null, 
+      "start": 72386, 
+      "text": "when"
+    }, 
+    {
+      "confidence": 0.998, 
+      "end": 72682, 
+      "speaker": null, 
+      "start": 72564, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.52365, 
+      "end": 73018, 
+      "speaker": null, 
+      "start": 72696, 
+      "text": "business"
+    }, 
+    {
+      "confidence": 0.93984, 
+      "end": 73498, 
+      "speaker": null, 
+      "start": 73104, 
+      "text": "mind"
+    }, 
+    {
+      "confidence": 0.86411, 
+      "end": 73762, 
+      "speaker": null, 
+      "start": 73584, 
+      "text": "kind"
+    }, 
+    {
+      "confidence": 0.6265, 
+      "end": 73882, 
+      "speaker": null, 
+      "start": 73776, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.52711, 
+      "end": 74162, 
+      "speaker": null, 
+      "start": 73896, 
+      "text": "kicked"
+    }, 
+    {
+      "confidence": 0.89498, 
+      "end": 74374, 
+      "speaker": null, 
+      "start": 74186, 
+      "text": "into"
+    }, 
+    {
+      "confidence": 0.96676, 
+      "end": 75086, 
+      "speaker": null, 
+      "start": 74412, 
+      "text": "overdrive."
+    }, 
+    {
+      "confidence": 0.59234, 
+      "end": 75466, 
+      "speaker": null, 
+      "start": 75158, 
+      "text": "We"
+    }, 
+    {
+      "confidence": 0.7021, 
+      "end": 75914, 
+      "speaker": null, 
+      "start": 75528, 
+      "text": "produce"
+    }, 
+    {
+      "confidence": 0.99481, 
+      "end": 76610, 
+      "speaker": null, 
+      "start": 75962, 
+      "text": "television,"
+    }, 
+    {
+      "confidence": 0.99049, 
+      "end": 77426, 
+      "speaker": null, 
+      "start": 76730, 
+      "text": "movies,"
+    }, 
+    {
+      "confidence": 0.99979, 
+      "end": 78034, 
+      "speaker": null, 
+      "start": 77558, 
+      "text": "develop"
+    }, 
+    {
+      "confidence": 0.99191, 
+      "end": 78394, 
+      "speaker": null, 
+      "start": 78132, 
+      "text": "and"
+    }, 
+    {
+      "confidence": 0.99876, 
+      "end": 78742, 
+      "speaker": null, 
+      "start": 78432, 
+      "text": "sell"
+    }, 
+    {
+      "confidence": 0.99872, 
+      "end": 79298, 
+      "speaker": null, 
+      "start": 78816, 
+      "text": "original"
+    }, 
+    {
+      "confidence": 0.92033, 
+      "end": 79910, 
+      "speaker": null, 
+      "start": 79334, 
+      "text": "IP."
+    }, 
+    {
+      "confidence": 0.6897, 
+      "end": 80378, 
+      "speaker": null, 
+      "start": 80030, 
+      "text": "There's"
+    }, 
+    {
+      "confidence": 0.96294, 
+      "end": 80578, 
+      "speaker": null, 
+      "start": 80414, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99978, 
+      "end": 81062, 
+      "speaker": null, 
+      "start": 80604, 
+      "text": "literature"
+    }, 
+    {
+      "confidence": 0.72853, 
+      "end": 81602, 
+      "speaker": null, 
+      "start": 81146, 
+      "text": "entity."
+    }, 
+    {
+      "confidence": 0.99072, 
+      "end": 81934, 
+      "speaker": null, 
+      "start": 81686, 
+      "text": "The"
+    }, 
+    {
+      "confidence": 0.65298, 
+      "end": 82358, 
+      "speaker": null, 
+      "start": 81972, 
+      "text": "goal"
+    }, 
+    {
+      "confidence": 0.98854, 
+      "end": 82714, 
+      "speaker": null, 
+      "start": 82454, 
+      "text": "was"
+    }, 
+    {
+      "confidence": 0.99823, 
+      "end": 83062, 
+      "speaker": null, 
+      "start": 82752, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99941, 
+      "end": 83374, 
+      "speaker": null, 
+      "start": 83136, 
+      "text": "have"
+    }, 
+    {
+      "confidence": 0.99966, 
+      "end": 83686, 
+      "speaker": null, 
+      "start": 83412, 
+      "text": "something"
+    }, 
+    {
+      "confidence": 0.9917, 
+      "end": 83974, 
+      "speaker": null, 
+      "start": 83748, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.60898, 
+      "end": 84206, 
+      "speaker": null, 
+      "start": 84012, 
+      "text": "acts"
+    }, 
+    {
+      "confidence": 0.83155, 
+      "end": 84358, 
+      "speaker": null, 
+      "start": 84218, 
+      "text": "as"
+    }, 
+    {
+      "confidence": 0.96457, 
+      "end": 84502, 
+      "speaker": null, 
+      "start": 84384, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99951, 
+      "end": 84766, 
+      "speaker": null, 
+      "start": 84516, 
+      "text": "complete"
+    }, 
+    {
+      "confidence": 0.98386, 
+      "end": 85190, 
+      "speaker": null, 
+      "start": 84828, 
+      "text": "circle"
+    }, 
+    {
+      "confidence": 0.99773, 
+      "end": 85474, 
+      "speaker": null, 
+      "start": 85250, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.67228, 
+      "end": 86146, 
+      "speaker": null, 
+      "start": 85512, 
+      "text": "services"
+    }, 
+    {
+      "confidence": 0.9981, 
+      "end": 86818, 
+      "speaker": null, 
+      "start": 86328, 
+      "text": "everything"
+    }, 
+    {
+      "confidence": 0.99493, 
+      "end": 87082, 
+      "speaker": null, 
+      "start": 86904, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.99118, 
+      "end": 87274, 
+      "speaker": null, 
+      "start": 87096, 
+      "text": "it."
+    }, 
+    {
+      "confidence": 0.98064, 
+      "end": 87478, 
+      "speaker": null, 
+      "start": 87312, 
+      "text": "Then"
+    }, 
+    {
+      "confidence": 0.9445, 
+      "end": 87662, 
+      "speaker": null, 
+      "start": 87504, 
+      "text": "there's"
+    }, 
+    {
+      "confidence": 0.99969, 
+      "end": 87946, 
+      "speaker": null, 
+      "start": 87686, 
+      "text": "another"
+    }, 
+    {
+      "confidence": 0.997, 
+      "end": 88306, 
+      "speaker": null, 
+      "start": 88008, 
+      "text": "world."
+    }, 
+    {
+      "confidence": 0.74706, 
+      "end": 88558, 
+      "speaker": null, 
+      "start": 88368, 
+      "text": "The"
+    }, 
+    {
+      "confidence": 0.99077, 
+      "end": 88774, 
+      "speaker": null, 
+      "start": 88584, 
+      "text": "world"
+    }, 
+    {
+      "confidence": 0.51222, 
+      "end": 89330, 
+      "speaker": null, 
+      "start": 88812, 
+      "text": "adventure,"
+    }, 
+    {
+      "confidence": 0.92366, 
+      "end": 89578, 
+      "speaker": null, 
+      "start": 89390, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.9752, 
+      "end": 89990, 
+      "speaker": null, 
+      "start": 89604, 
+      "text": "VC"
+    }, 
+    {
+      "confidence": 0.99162, 
+      "end": 90346, 
+      "speaker": null, 
+      "start": 90050, 
+      "text": "world."
+    }, 
+    {
+      "confidence": 0.84832, 
+      "end": 90706, 
+      "speaker": null, 
+      "start": 90408, 
+      "text": "So"
+    }, 
+    {
+      "confidence": 0.83514, 
+      "end": 90958, 
+      "speaker": null, 
+      "start": 90768, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.96837, 
+      "end": 91274, 
+      "speaker": null, 
+      "start": 90984, 
+      "text": "decided"
+    }, 
+    {
+      "confidence": 0.99786, 
+      "end": 91462, 
+      "speaker": null, 
+      "start": 91322, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.90573, 
+      "end": 91726, 
+      "speaker": null, 
+      "start": 91476, 
+      "text": "create"
+    }, 
+    {
+      "confidence": 0.86939, 
+      "end": 92222, 
+      "speaker": null, 
+      "start": 91788, 
+      "text": "Heartbeat"
+    }, 
+    {
+      "confidence": 0.99127, 
+      "end": 92738, 
+      "speaker": null, 
+      "start": 92246, 
+      "text": "Ventures."
+    }, 
+    {
+      "confidence": 0.57566, 
+      "end": 93098, 
+      "speaker": null, 
+      "start": 92834, 
+      "text": "It's"
+    }, 
+    {
+      "confidence": 0.99975, 
+      "end": 93298, 
+      "speaker": null, 
+      "start": 93134, 
+      "text": "all"
+    }, 
+    {
+      "confidence": 0.99996, 
+      "end": 93586, 
+      "speaker": null, 
+      "start": 93324, 
+      "text": "about"
+    }, 
+    {
+      "confidence": 0.99805, 
+      "end": 94094, 
+      "speaker": null, 
+      "start": 93648, 
+      "text": "financial"
+    }, 
+    {
+      "confidence": 0.65138, 
+      "end": 94730, 
+      "speaker": null, 
+      "start": 94142, 
+      "text": "inclusion."
+    }, 
+    {
+      "confidence": 0.99914, 
+      "end": 94978, 
+      "speaker": null, 
+      "start": 94790, 
+      "text": "These"
+    }, 
+    {
+      "confidence": 0.9955, 
+      "end": 95122, 
+      "speaker": null, 
+      "start": 95004, 
+      "text": "are"
+    }, 
+    {
+      "confidence": 0.99392, 
+      "end": 95378, 
+      "speaker": null, 
+      "start": 95136, 
+      "text": "doors"
+    }, 
+    {
+      "confidence": 0.99837, 
+      "end": 95542, 
+      "speaker": null, 
+      "start": 95414, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.83561, 
+      "end": 95734, 
+      "speaker": null, 
+      "start": 95556, 
+      "text": "were"
+    }, 
+    {
+      "confidence": 0.91563, 
+      "end": 96362, 
+      "speaker": null, 
+      "start": 95772, 
+      "text": "closed"
+    }, 
+    {
+      "confidence": 0.99953, 
+      "end": 96658, 
+      "speaker": null, 
+      "start": 96446, 
+      "text": "for"
+    }, 
+    {
+      "confidence": 0.99945, 
+      "end": 96838, 
+      "speaker": null, 
+      "start": 96684, 
+      "text": "quite"
+    }, 
+    {
+      "confidence": 0.98426, 
+      "end": 97054, 
+      "speaker": null, 
+      "start": 96864, 
+      "text": "some"
+    }, 
+    {
+      "confidence": 0.99951, 
+      "end": 97330, 
+      "speaker": null, 
+      "start": 97092, 
+      "text": "time,"
+    }, 
+    {
+      "confidence": 0.99651, 
+      "end": 97810, 
+      "speaker": null, 
+      "start": 97380, 
+      "text": "especially"
+    }, 
+    {
+      "confidence": 0.8598, 
+      "end": 98158, 
+      "speaker": null, 
+      "start": 97920, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99792, 
+      "end": 98338, 
+      "speaker": null, 
+      "start": 98184, 
+      "text": "my"
+    }, 
+    {
+      "confidence": 0.63056, 
+      "end": 98858, 
+      "speaker": null, 
+      "start": 98364, 
+      "text": "culture."
+    }, 
+    {
+      "confidence": 0.9721, 
+      "end": 99178, 
+      "speaker": null, 
+      "start": 98954, 
+      "text": "We"
+    }, 
+    {
+      "confidence": 0.99912, 
+      "end": 99322, 
+      "speaker": null, 
+      "start": 99204, 
+      "text": "have"
+    }, 
+    {
+      "confidence": 0.9989, 
+      "end": 99514, 
+      "speaker": null, 
+      "start": 99336, 
+      "text": "about"
+    }, 
+    {
+      "confidence": 0.95, 
+      "end": 100030, 
+      "speaker": null, 
+      "start": 99552, 
+      "text": "35"
+    }, 
+    {
+      "confidence": 0.99752, 
+      "end": 100330, 
+      "speaker": null, 
+      "start": 100080, 
+      "text": "companies"
+    }, 
+    {
+      "confidence": 0.99568, 
+      "end": 100486, 
+      "speaker": null, 
+      "start": 100380, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.91878, 
+      "end": 100682, 
+      "speaker": null, 
+      "start": 100488, 
+      "text": "we've"
+    }, 
+    {
+      "confidence": 0.99422, 
+      "end": 101042, 
+      "speaker": null, 
+      "start": 100706, 
+      "text": "invested"
+    }, 
+    {
+      "confidence": 0.99414, 
+      "end": 101326, 
+      "speaker": null, 
+      "start": 101066, 
+      "text": "in."
+    }, 
+    {
+      "confidence": 0.73556, 
+      "end": 101990, 
+      "speaker": null, 
+      "start": 101388, 
+      "text": "Athletics,"
+    }, 
+    {
+      "confidence": 0.98981, 
+      "end": 102410, 
+      "speaker": null, 
+      "start": 102050, 
+      "text": "beyond"
+    }, 
+    {
+      "confidence": 0.54796, 
+      "end": 102794, 
+      "speaker": null, 
+      "start": 102470, 
+      "text": "meat,"
+    }, 
+    {
+      "confidence": 0.56585, 
+      "end": 103054, 
+      "speaker": null, 
+      "start": 102842, 
+      "text": "their"
+    }, 
+    {
+      "confidence": 0.81036, 
+      "end": 103510, 
+      "speaker": null, 
+      "start": 103092, 
+      "text": "body"
+    }, 
+    {
+      "confidence": 0.99825, 
+      "end": 104018, 
+      "speaker": null, 
+      "start": 103620, 
+      "text": "liquid,"
+    }, 
+    {
+      "confidence": 0.80598, 
+      "end": 104498, 
+      "speaker": null, 
+      "start": 104054, 
+      "text": "IV,"
+    }, 
+    {
+      "confidence": 0.26765, 
+      "end": 104918, 
+      "speaker": null, 
+      "start": 104594, 
+      "text": "ate"
+    }, 
+    {
+      "confidence": 0.97238, 
+      "end": 105362, 
+      "speaker": null, 
+      "start": 104954, 
+      "text": "sleep."
+    }, 
+    {
+      "confidence": 0.89459, 
+      "end": 105722, 
+      "speaker": null, 
+      "start": 105446, 
+      "text": "We've"
+    }, 
+    {
+      "confidence": 0.94206, 
+      "end": 106106, 
+      "speaker": null, 
+      "start": 105746, 
+      "text": "managed"
+    }, 
+    {
+      "confidence": 0.95769, 
+      "end": 106258, 
+      "speaker": null, 
+      "start": 106118, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.9969, 
+      "end": 106402, 
+      "speaker": null, 
+      "start": 106284, 
+      "text": "put"
+    }, 
+    {
+      "confidence": 0.95427, 
+      "end": 106862, 
+      "speaker": null, 
+      "start": 106416, 
+      "text": "ourselves"
+    }, 
+    {
+      "confidence": 0.72667, 
+      "end": 107158, 
+      "speaker": null, 
+      "start": 106946, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.99884, 
+      "end": 107590, 
+      "speaker": null, 
+      "start": 107184, 
+      "text": "position"
+    }, 
+    {
+      "confidence": 0.99936, 
+      "end": 107902, 
+      "speaker": null, 
+      "start": 107700, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.56863, 
+      "end": 108202, 
+      "speaker": null, 
+      "start": 107916, 
+      "text": "be"
+    }, 
+    {
+      "confidence": 0.9724, 
+      "end": 108442, 
+      "speaker": null, 
+      "start": 108276, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.55898, 
+      "end": 108670, 
+      "speaker": null, 
+      "start": 108456, 
+      "text": "real"
+    }, 
+    {
+      "confidence": 0.99779, 
+      "end": 109166, 
+      "speaker": null, 
+      "start": 108720, 
+      "text": "player"
+    }, 
+    {
+      "confidence": 0.8793, 
+      "end": 109402, 
+      "speaker": null, 
+      "start": 109238, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.60001, 
+      "end": 109594, 
+      "speaker": null, 
+      "start": 109416, 
+      "text": "this"
+    }, 
+    {
+      "confidence": 0.43689, 
+      "end": 110220, 
+      "speaker": null, 
+      "start": 109632, 
+      "text": "state."
+    }, 
+    {
+      "confidence": 0.6584, 
+      "end": 111178, 
+      "speaker": null, 
+      "start": 110850, 
+      "text": "So"
+    }, 
+    {
+      "confidence": 0.9971, 
+      "end": 111394, 
+      "speaker": null, 
+      "start": 111204, 
+      "text": "many"
+    }, 
+    {
+      "confidence": 0.99994, 
+      "end": 111742, 
+      "speaker": null, 
+      "start": 111432, 
+      "text": "people"
+    }, 
+    {
+      "confidence": 0.99956, 
+      "end": 112090, 
+      "speaker": null, 
+      "start": 111816, 
+      "text": "feel"
+    }, 
+    {
+      "confidence": 0.99909, 
+      "end": 112498, 
+      "speaker": null, 
+      "start": 112140, 
+      "text": "like"
+    }, 
+    {
+      "confidence": 0.99768, 
+      "end": 112762, 
+      "speaker": null, 
+      "start": 112584, 
+      "text": "you"
+    }, 
+    {
+      "confidence": 0.98575, 
+      "end": 112918, 
+      "speaker": null, 
+      "start": 112776, 
+      "text": "have"
+    }, 
+    {
+      "confidence": 0.9574, 
+      "end": 113062, 
+      "speaker": null, 
+      "start": 112944, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.53229, 
+      "end": 113398, 
+      "speaker": null, 
+      "start": 113076, 
+      "text": "cap"
+    }, 
+    {
+      "confidence": 0.99105, 
+      "end": 113698, 
+      "speaker": null, 
+      "start": 113484, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.99725, 
+      "end": 114202, 
+      "speaker": null, 
+      "start": 113724, 
+      "text": "opportunity"
+    }, 
+    {
+      "confidence": 0.95847, 
+      "end": 114634, 
+      "speaker": null, 
+      "start": 114336, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.99984, 
+      "end": 114982, 
+      "speaker": null, 
+      "start": 114672, 
+      "text": "life."
+    }, 
+    {
+      "confidence": 0.99899, 
+      "end": 115222, 
+      "speaker": null, 
+      "start": 115056, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.99767, 
+      "end": 115346, 
+      "speaker": null, 
+      "start": 115236, 
+      "text": "don't"
+    }, 
+    {
+      "confidence": 0.99868, 
+      "end": 115462, 
+      "speaker": null, 
+      "start": 115358, 
+      "text": "look"
+    }, 
+    {
+      "confidence": 0.91319, 
+      "end": 115582, 
+      "speaker": null, 
+      "start": 115476, 
+      "text": "at"
+    }, 
+    {
+      "confidence": 0.9909, 
+      "end": 115702, 
+      "speaker": null, 
+      "start": 115596, 
+      "text": "it"
+    }, 
+    {
+      "confidence": 0.99887, 
+      "end": 115822, 
+      "speaker": null, 
+      "start": 115716, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.99983, 
+      "end": 116014, 
+      "speaker": null, 
+      "start": 115836, 
+      "text": "way."
+    }, 
+    {
+      "confidence": 0.96413, 
+      "end": 116182, 
+      "speaker": null, 
+      "start": 116052, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.98117, 
+      "end": 116338, 
+      "speaker": null, 
+      "start": 116196, 
+      "text": "look"
+    }, 
+    {
+      "confidence": 0.98106, 
+      "end": 116482, 
+      "speaker": null, 
+      "start": 116364, 
+      "text": "at"
+    }, 
+    {
+      "confidence": 0.91323, 
+      "end": 116602, 
+      "speaker": null, 
+      "start": 116496, 
+      "text": "it"
+    }, 
+    {
+      "confidence": 0.66633, 
+      "end": 116758, 
+      "speaker": null, 
+      "start": 116616, 
+      "text": "as"
+    }, 
+    {
+      "confidence": 0.95311, 
+      "end": 117010, 
+      "speaker": null, 
+      "start": 116784, 
+      "text": "life"
+    }, 
+    {
+      "confidence": 0.66991, 
+      "end": 117386, 
+      "speaker": null, 
+      "start": 117060, 
+      "text": "presents"
+    }, 
+    {
+      "confidence": 0.71727, 
+      "end": 117538, 
+      "speaker": null, 
+      "start": 117398, 
+      "text": "you"
+    }, 
+    {
+      "confidence": 0.97975, 
+      "end": 117682, 
+      "speaker": null, 
+      "start": 117564, 
+      "text": "with"
+    }, 
+    {
+      "confidence": 0.68019, 
+      "end": 117838, 
+      "speaker": null, 
+      "start": 117696, 
+      "text": "so"
+    }, 
+    {
+      "confidence": 0.99992, 
+      "end": 118054, 
+      "speaker": null, 
+      "start": 117864, 
+      "text": "many"
+    }, 
+    {
+      "confidence": 0.99715, 
+      "end": 118466, 
+      "speaker": null, 
+      "start": 118092, 
+      "text": "doors,"
+    }, 
+    {
+      "confidence": 0.99834, 
+      "end": 118702, 
+      "speaker": null, 
+      "start": 118538, 
+      "text": "you"
+    }, 
+    {
+      "confidence": 0.99087, 
+      "end": 118858, 
+      "speaker": null, 
+      "start": 118716, 
+      "text": "just"
+    }, 
+    {
+      "confidence": 0.60554, 
+      "end": 119002, 
+      "speaker": null, 
+      "start": 118884, 
+      "text": "have"
+    }, 
+    {
+      "confidence": 0.78833, 
+      "end": 119158, 
+      "speaker": null, 
+      "start": 119016, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99894, 
+      "end": 119594, 
+      "speaker": null, 
+      "start": 119184, 
+      "text": "choice"
+    }, 
+    {
+      "confidence": 0.99382, 
+      "end": 119938, 
+      "speaker": null, 
+      "start": 119702, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99895, 
+      "end": 120118, 
+      "speaker": null, 
+      "start": 119964, 
+      "text": "turn"
+    }, 
+    {
+      "confidence": 0.52404, 
+      "end": 120262, 
+      "speaker": null, 
+      "start": 120144, 
+      "text": "them"
+    }, 
+    {
+      "confidence": 0.18314, 
+      "end": 120454, 
+      "speaker": null, 
+      "start": 120276, 
+      "text": "off"
+    }, 
+    {
+      "confidence": 0.99336, 
+      "end": 120658, 
+      "speaker": null, 
+      "start": 120492, 
+      "text": "and"
+    }, 
+    {
+      "confidence": 0.99995, 
+      "end": 120874, 
+      "speaker": null, 
+      "start": 120684, 
+      "text": "open"
+    }, 
+    {
+      "confidence": 0.93265, 
+      "end": 121500, 
+      "speaker": null, 
+      "start": 120912, 
+      "text": "them."
+    }, 
+    {
+      "confidence": 0.90383, 
+      "end": 122722, 
+      "speaker": null, 
+      "start": 122430, 
+      "text": "Where"
+    }, 
+    {
+      "confidence": 0.99678, 
+      "end": 122878, 
+      "speaker": null, 
+      "start": 122736, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.9962, 
+      "end": 123094, 
+      "speaker": null, 
+      "start": 122904, 
+      "text": "come"
+    }, 
+    {
+      "confidence": 0.99977, 
+      "end": 123406, 
+      "speaker": null, 
+      "start": 123132, 
+      "text": "from,"
+    }, 
+    {
+      "confidence": 0.83713, 
+      "end": 123658, 
+      "speaker": null, 
+      "start": 123468, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99933, 
+      "end": 123874, 
+      "speaker": null, 
+      "start": 123684, 
+      "text": "little"
+    }, 
+    {
+      "confidence": 0.99343, 
+      "end": 124150, 
+      "speaker": null, 
+      "start": 123912, 
+      "text": "kids"
+    }, 
+    {
+      "confidence": 0.97287, 
+      "end": 124378, 
+      "speaker": null, 
+      "start": 124200, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.96135, 
+      "end": 124558, 
+      "speaker": null, 
+      "start": 124404, 
+      "text": "look"
+    }, 
+    {
+      "confidence": 0.99962, 
+      "end": 124774, 
+      "speaker": null, 
+      "start": 124584, 
+      "text": "like"
+    }, 
+    {
+      "confidence": 0.99898, 
+      "end": 125086, 
+      "speaker": null, 
+      "start": 124812, 
+      "text": "me,"
+    }, 
+    {
+      "confidence": 0.64893, 
+      "end": 125342, 
+      "speaker": null, 
+      "start": 125148, 
+      "text": "we're"
+    }, 
+    {
+      "confidence": 0.99966, 
+      "end": 125554, 
+      "speaker": null, 
+      "start": 125366, 
+      "text": "not"
+    }, 
+    {
+      "confidence": 0.99636, 
+      "end": 126098, 
+      "speaker": null, 
+      "start": 125592, 
+      "text": "expected"
+    }, 
+    {
+      "confidence": 0.99975, 
+      "end": 126298, 
+      "speaker": null, 
+      "start": 126134, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99937, 
+      "end": 126514, 
+      "speaker": null, 
+      "start": 126324, 
+      "text": "make"
+    }, 
+    {
+      "confidence": 0.99878, 
+      "end": 126790, 
+      "speaker": null, 
+      "start": 126552, 
+      "text": "it."
+    }, 
+    {
+      "confidence": 0.90144, 
+      "end": 126986, 
+      "speaker": null, 
+      "start": 126840, 
+      "text": "We're"
+    }, 
+    {
+      "confidence": 0.97872, 
+      "end": 127174, 
+      "speaker": null, 
+      "start": 126998, 
+      "text": "not"
+    }, 
+    {
+      "confidence": 0.99701, 
+      "end": 127886, 
+      "speaker": null, 
+      "start": 127212, 
+      "text": "expected"
+    }, 
+    {
+      "confidence": 0.99965, 
+      "end": 128122, 
+      "speaker": null, 
+      "start": 127958, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99962, 
+      "end": 128278, 
+      "speaker": null, 
+      "start": 128136, 
+      "text": "see"
+    }, 
+    {
+      "confidence": 0.99092, 
+      "end": 128458, 
+      "speaker": null, 
+      "start": 128304, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.72029, 
+      "end": 128782, 
+      "speaker": null, 
+      "start": 128484, 
+      "text": "higher"
+    }, 
+    {
+      "confidence": 0.84117, 
+      "end": 129350, 
+      "speaker": null, 
+      "start": 128856, 
+      "text": "levels"
+    }, 
+    {
+      "confidence": 0.87833, 
+      "end": 129634, 
+      "speaker": null, 
+      "start": 129410, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.99949, 
+      "end": 130018, 
+      "speaker": null, 
+      "start": 129672, 
+      "text": "life."
+    }, 
+    {
+      "confidence": 0.49103, 
+      "end": 130538, 
+      "speaker": null, 
+      "start": 130104, 
+      "text": "It's"
+    }, 
+    {
+      "confidence": 0.94585, 
+      "end": 130822, 
+      "speaker": null, 
+      "start": 130634, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.9991, 
+      "end": 131410, 
+      "speaker": null, 
+      "start": 130836, 
+      "text": "fact."
+    }, 
+    {
+      "confidence": 0.99974, 
+      "end": 131950, 
+      "speaker": null, 
+      "start": 131580, 
+      "text": "My"
+    }, 
+    {
+      "confidence": 0.99945, 
+      "end": 132466, 
+      "speaker": null, 
+      "start": 132000, 
+      "text": "story"
+    }, 
+    {
+      "confidence": 0.82135, 
+      "end": 132874, 
+      "speaker": null, 
+      "start": 132588, 
+      "text": "does"
+    }, 
+    {
+      "confidence": 0.9842, 
+      "end": 133042, 
+      "speaker": null, 
+      "start": 132912, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99967, 
+      "end": 133270, 
+      "speaker": null, 
+      "start": 133056, 
+      "text": "lot"
+    }, 
+    {
+      "confidence": 0.99988, 
+      "end": 133786, 
+      "speaker": null, 
+      "start": 133320, 
+      "text": "more"
+    }, 
+    {
+      "confidence": 0.99873, 
+      "end": 134374, 
+      "speaker": null, 
+      "start": 133908, 
+      "text": "for"
+    }, 
+    {
+      "confidence": 0.99721, 
+      "end": 134842, 
+      "speaker": null, 
+      "start": 134472, 
+      "text": "those"
+    }, 
+    {
+      "confidence": 0.99895, 
+      "end": 135190, 
+      "speaker": null, 
+      "start": 134916, 
+      "text": "kids"
+    }, 
+    {
+      "confidence": 0.42555, 
+      "end": 135454, 
+      "speaker": null, 
+      "start": 135240, 
+      "text": "than"
+    }, 
+    {
+      "confidence": 0.9999, 
+      "end": 135694, 
+      "speaker": null, 
+      "start": 135492, 
+      "text": "people"
+    }, 
+    {
+      "confidence": 0.98873, 
+      "end": 135898, 
+      "speaker": null, 
+      "start": 135732, 
+      "text": "may"
+    }, 
+    {
+      "confidence": 0.75902, 
+      "end": 136222, 
+      "speaker": null, 
+      "start": 135924, 
+      "text": "think."
+    }, 
+    {
+      "confidence": 0.97643, 
+      "end": 136498, 
+      "speaker": null, 
+      "start": 136296, 
+      "text": "To"
+    }, 
+    {
+      "confidence": 0.99943, 
+      "end": 136714, 
+      "speaker": null, 
+      "start": 136524, 
+      "text": "show"
+    }, 
+    {
+      "confidence": 0.99468, 
+      "end": 137026, 
+      "speaker": null, 
+      "start": 136752, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.99491, 
+      "end": 137278, 
+      "speaker": null, 
+      "start": 137088, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.69369, 
+      "end": 137558, 
+      "speaker": null, 
+      "start": 137304, 
+      "text": "dream"
+    }, 
+    {
+      "confidence": 0.99407, 
+      "end": 137794, 
+      "speaker": null, 
+      "start": 137594, 
+      "text": "is"
+    }, 
+    {
+      "confidence": 0.99691, 
+      "end": 138178, 
+      "speaker": null, 
+      "start": 137832, 
+      "text": "real,"
+    }, 
+    {
+      "confidence": 0.99675, 
+      "end": 138478, 
+      "speaker": null, 
+      "start": 138264, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.99947, 
+      "end": 138730, 
+      "speaker": null, 
+      "start": 138504, 
+      "text": "say,"
+    }, 
+    {
+      "confidence": 0.97249, 
+      "end": 139138, 
+      "speaker": null, 
+      "start": 138780, 
+      "text": "hey,"
+    }, 
+    {
+      "confidence": 0.98178, 
+      "end": 139510, 
+      "speaker": null, 
+      "start": 139224, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.99905, 
+      "end": 139774, 
+      "speaker": null, 
+      "start": 139560, 
+      "text": "came"
+    }, 
+    {
+      "confidence": 0.99967, 
+      "end": 139978, 
+      "speaker": null, 
+      "start": 139812, 
+      "text": "from"
+    }, 
+    {
+      "confidence": 0.9976, 
+      "end": 140158, 
+      "speaker": null, 
+      "start": 140004, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99995, 
+      "end": 140410, 
+      "speaker": null, 
+      "start": 140184, 
+      "text": "same"
+    }, 
+    {
+      "confidence": 0.99986, 
+      "end": 141060, 
+      "speaker": null, 
+      "start": 140460, 
+      "text": "place."
+    }, 
+    {
+      "confidence": 0.50957, 
+      "end": 141778, 
+      "speaker": null, 
+      "start": 141450, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.75709, 
+      "end": 141958, 
+      "speaker": null, 
+      "start": 141804, 
+      "text": "put"
+    }, 
+    {
+      "confidence": 0.99925, 
+      "end": 142102, 
+      "speaker": null, 
+      "start": 141984, 
+      "text": "my"
+    }, 
+    {
+      "confidence": 0.52562, 
+      "end": 142330, 
+      "speaker": null, 
+      "start": 142116, 
+      "text": "head"
+    }, 
+    {
+      "confidence": 0.99974, 
+      "end": 142630, 
+      "speaker": null, 
+      "start": 142380, 
+      "text": "down."
+    }, 
+    {
+      "confidence": 0.88845, 
+      "end": 142894, 
+      "speaker": null, 
+      "start": 142680, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.93583, 
+      "end": 143314, 
+      "speaker": null, 
+      "start": 142932, 
+      "text": "worked."
+    }, 
+    {
+      "confidence": 0.99468, 
+      "end": 143602, 
+      "speaker": null, 
+      "start": 143412, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.53543, 
+      "end": 143830, 
+      "speaker": null, 
+      "start": 143616, 
+      "text": "got"
+    }, 
+    {
+      "confidence": 0.71629, 
+      "end": 144314, 
+      "speaker": null, 
+      "start": 143880, 
+      "text": "opportunities."
+    }, 
+    {
+      "confidence": 0.98113, 
+      "end": 144502, 
+      "speaker": null, 
+      "start": 144362, 
+      "text": "I"
+    }, 
+    {
+      "confidence": 0.9979, 
+      "end": 144658, 
+      "speaker": null, 
+      "start": 144516, 
+      "text": "made"
+    }, 
+    {
+      "confidence": 0.88014, 
+      "end": 144838, 
+      "speaker": null, 
+      "start": 144684, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.99989, 
+      "end": 145054, 
+      "speaker": null, 
+      "start": 144864, 
+      "text": "best"
+    }, 
+    {
+      "confidence": 0.94728, 
+      "end": 145222, 
+      "speaker": null, 
+      "start": 145092, 
+      "text": "out"
+    }, 
+    {
+      "confidence": 0.98706, 
+      "end": 145306, 
+      "speaker": null, 
+      "start": 145236, 
+      "text": "of"
+    }, 
+    {
+      "confidence": 0.87709, 
+      "end": 145402, 
+      "speaker": null, 
+      "start": 145308, 
+      "text": "them."
+    }, 
+    {
+      "confidence": 0.97242, 
+      "end": 145522, 
+      "speaker": null, 
+      "start": 145416, 
+      "text": "But"
+    }, 
+    {
+      "confidence": 0.66354, 
+      "end": 145742, 
+      "speaker": null, 
+      "start": 145536, 
+      "text": "it's"
+    }, 
+    {
+      "confidence": 0.57402, 
+      "end": 146134, 
+      "speaker": null, 
+      "start": 145766, 
+      "text": "possible"
+    }, 
+    {
+      "confidence": 0.99949, 
+      "end": 146494, 
+      "speaker": null, 
+      "start": 146232, 
+      "text": "for"
+    }, 
+    {
+      "confidence": 0.99966, 
+      "end": 146734, 
+      "speaker": null, 
+      "start": 146532, 
+      "text": "us"
+    }, 
+    {
+      "confidence": 0.99421, 
+      "end": 147118, 
+      "speaker": null, 
+      "start": 146772, 
+      "text": "all"
+    }, 
+    {
+      "confidence": 0.99212, 
+      "end": 147418, 
+      "speaker": null, 
+      "start": 147204, 
+      "text": "if"
+    }, 
+    {
+      "confidence": 0.99923, 
+      "end": 147562, 
+      "speaker": null, 
+      "start": 147444, 
+      "text": "we"
+    }, 
+    {
+      "confidence": 0.67022, 
+      "end": 147878, 
+      "speaker": null, 
+      "start": 147576, 
+      "text": "truly"
+    }, 
+    {
+      "confidence": 0.99985, 
+      "end": 148402, 
+      "speaker": null, 
+      "start": 147914, 
+      "text": "believe"
+    }, 
+    {
+      "confidence": 0.78802, 
+      "end": 148762, 
+      "speaker": null, 
+      "start": 148536, 
+      "text": "so"
+    }, 
+    {
+      "confidence": 0.66052, 
+      "end": 148954, 
+      "speaker": null, 
+      "start": 148776, 
+      "text": "as"
+    }, 
+    {
+      "confidence": 0.49614, 
+      "end": 149342, 
+      "speaker": null, 
+      "start": 148992, 
+      "text": "Heartbeat"
+    }, 
+    {
+      "confidence": 0.94537, 
+      "end": 149750, 
+      "speaker": null, 
+      "start": 149366, 
+      "text": "Ventures"
+    }, 
+    {
+      "confidence": 0.92339, 
+      "end": 150326, 
+      "speaker": null, 
+      "start": 149810, 
+      "text": "grows,"
+    }, 
+    {
+      "confidence": 0.69178, 
+      "end": 150734, 
+      "speaker": null, 
+      "start": 150398, 
+      "text": "you'll"
+    }, 
+    {
+      "confidence": 0.95384, 
+      "end": 151138, 
+      "speaker": null, 
+      "start": 150782, 
+      "text": "see"
+    }, 
+    {
+      "confidence": 0.90604, 
+      "end": 151438, 
+      "speaker": null, 
+      "start": 151224, 
+      "text": "a"
+    }, 
+    {
+      "confidence": 0.99784, 
+      "end": 151654, 
+      "speaker": null, 
+      "start": 151464, 
+      "text": "real"
+    }, 
+    {
+      "confidence": 0.88918, 
+      "end": 152282, 
+      "speaker": null, 
+      "start": 151692, 
+      "text": "initiative"
+    }, 
+    {
+      "confidence": 0.60495, 
+      "end": 152650, 
+      "speaker": null, 
+      "start": 152366, 
+      "text": "in"
+    }, 
+    {
+      "confidence": 0.9819, 
+      "end": 153098, 
+      "speaker": null, 
+      "start": 152700, 
+      "text": "closing"
+    }, 
+    {
+      "confidence": 0.96947, 
+      "end": 153370, 
+      "speaker": null, 
+      "start": 153134, 
+      "text": "that"
+    }, 
+    {
+      "confidence": 0.99956, 
+      "end": 153670, 
+      "speaker": null, 
+      "start": 153420, 
+      "text": "big"
+    }, 
+    {
+      "confidence": 0.98052, 
+      "end": 154226, 
+      "speaker": null, 
+      "start": 153720, 
+      "text": "financial"
+    }, 
+    {
+      "confidence": 0.63852, 
+      "end": 154742, 
+      "speaker": null, 
+      "start": 154298, 
+      "text": "gap"
+    }, 
+    {
+      "confidence": 1.0, 
+      "end": 155362, 
+      "speaker": null, 
+      "start": 154826, 
+      "text": "between"
+    }, 
+    {
+      "confidence": 0.99858, 
+      "end": 155830, 
+      "speaker": null, 
+      "start": 155496, 
+      "text": "my"
+    }, 
+    {
+      "confidence": 0.99679, 
+      "end": 156422, 
+      "speaker": null, 
+      "start": 155880, 
+      "text": "culture"
+    }, 
+    {
+      "confidence": 0.68006, 
+      "end": 156790, 
+      "speaker": null, 
+      "start": 156506, 
+      "text": "and"
+    }, 
+    {
+      "confidence": 0.94135, 
+      "end": 157502, 
+      "speaker": null, 
+      "start": 156840, 
+      "text": "mainstream"
+    }, 
+    {
+      "confidence": 0.99526, 
+      "end": 158366, 
+      "speaker": null, 
+      "start": 157586, 
+      "text": "America."
+    }, 
+    {
+      "confidence": 0.99966, 
+      "end": 158794, 
+      "speaker": null, 
+      "start": 158498, 
+      "text": "My"
+    }, 
+    {
+      "confidence": 0.95161, 
+      "end": 159322, 
+      "speaker": null, 
+      "start": 158832, 
+      "text": "success"
+    }, 
+    {
+      "confidence": 0.84094, 
+      "end": 159754, 
+      "speaker": null, 
+      "start": 159456, 
+      "text": "is"
+    }, 
+    {
+      "confidence": 0.99961, 
+      "end": 159958, 
+      "speaker": null, 
+      "start": 159792, 
+      "text": "going"
+    }, 
+    {
+      "confidence": 0.99732, 
+      "end": 160138, 
+      "speaker": null, 
+      "start": 159984, 
+      "text": "to"
+    }, 
+    {
+      "confidence": 0.76676, 
+      "end": 160646, 
+      "speaker": null, 
+      "start": 160164, 
+      "text": "ultimately"
+    }, 
+    {
+      "confidence": 0.99883, 
+      "end": 161206, 
+      "speaker": null, 
+      "start": 160718, 
+      "text": "help"
+    }, 
+    {
+      "confidence": 0.99257, 
+      "end": 161614, 
+      "speaker": null, 
+      "start": 161328, 
+      "text": "close"
+    }, 
+    {
+      "confidence": 0.93277, 
+      "end": 161782, 
+      "speaker": null, 
+      "start": 161652, 
+      "text": "the"
+    }, 
+    {
+      "confidence": 0.78612, 
+      "end": 161930, 
+      "speaker": null, 
+      "start": 161796, 
+      "text": "gap."
+    }
+  ]
+}
