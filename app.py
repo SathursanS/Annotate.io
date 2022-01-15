@@ -4,9 +4,11 @@ from flask import Flask, flash, request, redirect, url_for, session
 from werkzeug.utils import secure_filename
 from flask_cors import CORS, cross_origin
 import logging
+import base64
+
 
 from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail
+from sendgrid.helpers.mail import (Mail, Attachment, FileContent, FileName, FileType, Disposition)
 
 
 
@@ -35,20 +37,35 @@ def fileUpload():
     file.save(destination)
     session['uploadFilePath']=destination
     
+    return {'message': "Test"}
 
+@app.route('/email', methods = ['GET'])
+def emailSend():
+    toEmail = request.json['toEmail']
     message = Mail(
         from_email='stockerenghack@gmail.com',
-        to_emails='stockerenghack@gmail.com',
+        to_emails=toEmail,
         subject='Sending with Twilio SendGrid is Fun',
         html_content='<strong>and easy to do anywhere, even with Python</strong>')
+    with open('Delta Hacks/L07-Sockets.pdf', 'rb') as f:
+        data = f.read()
+        f.close()
+    encoded_file = base64.b64encode(data).decode()
+
+    attachedFile = Attachment(
+    FileContent(encoded_file),
+    FileName('attachment.pdf'),
+    FileType('application/pdf'),
+    Disposition('attachment')
+    )
+    message.attachment = attachedFile
 
     sg = SendGridAPIClient(os.getenv("SENDGRID_API_KEY"))
     response = sg.send(message)
     print(response.status_code)
     print(response.body)
     print(response.headers)
-  
-    return {'message': "Test"}
+    return {'message': "Email Sent - Powered by Twillio"}
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(24)
