@@ -42,7 +42,7 @@ def fileUpload():
         subject='Sending with Twilio SendGrid is Fun',
         html_content='<strong>and easy to do anywhere, even with Python</strong>')
 
-    sg = SendGridAPIClient('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')
+    sg = SendGridAPIClient('DO ENV')
     response = sg.send(message)
     print(response.status_code)
     print(response.body)
