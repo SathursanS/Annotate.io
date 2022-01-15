@@ -29,6 +29,7 @@ UPLOAD_FOLDER = 'Upload'
 ALLOWED_EXTENSIONS = set(['mp4', 'mp3'])
 
 app = Flask(__name__)
+CORS(app)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
@@ -42,7 +43,6 @@ def fileUpload():
     filename = secure_filename(file.filename)
     destination="/".join([target, filename])
     file.save(destination)
-    session['uploadFilePath']=destination
 
     video = VideoFileClip(os.path.join(f'Upload/{filename}'))
     video.audio.write_audiofile(os.path.join(f'Upload/{filename}.mp3'))
@@ -93,10 +93,10 @@ def emailSend():
     print(response.headers)
     return {'message': "Email Sent - Powered by Twillio"}
 
-@app.route('/assemblyAI', methods = ['GET'])
+@app.route('/assemblyAI', methods = ['POST'])
 def assemblyAI():
     filename = request.json['filename']
-    youtube = request.json['youtube']
+    # youtube = request.json['youtube']
 
     # if youtube:
     #     os.remove('Upload/attachment.mp4')
@@ -161,6 +161,5 @@ def assemblyAI():
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(24)
+    CORS(app, expose_headers='Authorization')
     app.run(debug=True)
-
-# flask_cors.CORS(app, expose_headers='Authorization')
