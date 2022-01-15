@@ -9,13 +9,14 @@ import base64
 import requests
 import pprint
 from time import sleep
+from pytube import YouTube
 
+import os
+from moviepy.editor import *
 
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import (Mail, Attachment, FileContent, FileName, FileType, Disposition)
 
-import os
-from moviepy.editor import *
 
 
 logging.basicConfig(level=logging.INFO)
@@ -45,9 +46,27 @@ def fileUpload():
 
     video = VideoFileClip(os.path.join(f'Upload/{filename}'))
     video.audio.write_audiofile(os.path.join(f'Upload/{filename}.mp3'))
-    
-    return {'message': filename}
 
+    return {'message': f'Upload/{filename}'}
+@app.route('/upload/youtube', methods = ['POST'])
+def ytMp3():
+    link = request.json['link']
+    yt = YouTube(link)
+    yt =YouTube(link)
+    video= yt.streams.first()
+    # download the file
+    out_file = video.download(output_path='./Upload')
+    
+    # save the file
+    new_file = 'Upload/attachment.mp4'
+    os.rename(out_file, new_file)
+
+    video = VideoFileClip(os.path.join(new_file))
+    video.audio.write_audiofile(os.path.join(f'Upload/attachment.mp3'))
+ 
+    
+    
+    return {'message' :'Upload/atachment.mp3'}
 @app.route('/email', methods = ['POST'])
 def emailSend():
     toEmail = request.json['toEmail']
@@ -77,8 +96,9 @@ def emailSend():
     print(response.headers)
     return {'message': "Email Sent - Powered by Twillio"}
 
-
 def assemblyAI():
+
+# WHEN CREATING THIS ENDPOINT MAKE SURE I REMOVE THE YT VIDEO IE FOR THIS ENDPOINT WE WOULD NEED A YT TRUE AND FALSE STATE IF TRUE REMOVE THE VIDEO  os.remove('Upload/attachment.mp4')
     headers = {
     "authorization": os.getenv("ASSEMBLY_AI_KEY"),
     "content-type": "application/json"
