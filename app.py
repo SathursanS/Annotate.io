@@ -18,7 +18,7 @@ logger = logging.getLogger('HELLO WORLD')
 
 
 
-UPLOAD_FOLDER = 'Delta Hacks'
+UPLOAD_FOLDER = 'Upload'
 ALLOWED_EXTENSIONS = set(['mp4', 'mp3'])
 
 app = Flask(__name__)
@@ -37,17 +37,18 @@ def fileUpload():
     file.save(destination)
     session['uploadFilePath']=destination
     
-    return {'message': "Test"}
+    return {'message': filename}
 
-@app.route('/email', methods = ['GET'])
+@app.route('/email', methods = ['POST'])
 def emailSend():
     toEmail = request.json['toEmail']
+    path = request.json['path']
     message = Mail(
         from_email='stockerenghack@gmail.com',
         to_emails=toEmail,
         subject='Sending with Twilio SendGrid is Fun',
         html_content='<strong>and easy to do anywhere, even with Python</strong>')
-    with open('Delta Hacks/L07-Sockets.pdf', 'rb') as f:
+    with open(f'Upload/{path}', 'rb') as f:
         data = f.read()
         f.close()
     encoded_file = base64.b64encode(data).decode()
