@@ -68,7 +68,7 @@ def ytMp3():
 def emailSend():
     toEmail = request.json['toEmail']
     message = Mail(
-        from_email='stockerenghack@gmail.com',
+        from_email='sendgridenv@gmail.com ',
         to_emails=toEmail,
         subject='Curated notes :) ',
         html_content='As you requested here it is!')
