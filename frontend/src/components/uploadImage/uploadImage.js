@@ -25,7 +25,7 @@ const UploadImage = ({ setAnalysisInfo }) => {
 
   const handleYoutubeLink = async () => {
     let response;
-    let json;
+    let json1;
 
     setLoadingMessage('Uploading Video');
     setLoading(true);
@@ -41,9 +41,9 @@ const UploadImage = ({ setAnalysisInfo }) => {
       }),
     });
 
-    json = await response.json();
-    console.log(json.message);
-    handleAnalyze(json.message);
+    json1 = await response.json();
+    console.log(json1.message);
+    handleAnalyze(json1.message);
   };
 
   const handleFileUpload = async (e) => {
