@@ -1,7 +1,22 @@
 import React, { useState } from 'react';
+import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import LinearProgress from '@mui/material/LinearProgress';
+import LinearProgress, {
+  linearProgressClasses,
+} from '@mui/material/LinearProgress';
 import './uploadImage.css';
+
+const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
+  height: 10,
+  borderRadius: 5,
+  [`&.${linearProgressClasses.colorPrimary}`]: {
+    backgroundColor: theme.palette.mode === 'light' ? '#d4d2fb' : '#d4d2fb',
+  },
+  [`& .${linearProgressClasses.bar}`]: {
+    borderRadius: 5,
+    backgroundColor: theme.palette.mode === 'light' ? '#3c3885' : '#3c3885',
+  },
+}));
 
 const UploadImage = ({ setAnalysisInfo }) => {
   const [link, setLink] = useState('');
@@ -126,7 +141,7 @@ const UploadImage = ({ setAnalysisInfo }) => {
         {loading && (
           <div>
             <label className="loading-message">{loadingMessage}</label>
-            {/* <Box
+            <Box
               sx={{
                 width: '735px',
                 height: 10,
@@ -134,8 +149,8 @@ const UploadImage = ({ setAnalysisInfo }) => {
                 borderRadius: 5,
               }}
             >
-              <LinearProgress color="secondary" />
-            </Box> */}
+              <BorderLinearProgress />
+            </Box>
           </div>
         )}
       </div>
