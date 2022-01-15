@@ -1,10 +1,14 @@
 
 import os
+import sys
 from flask import Flask, flash, request, redirect, url_for, session
 from werkzeug.utils import secure_filename
 from flask_cors import CORS, cross_origin
 import logging
 import base64
+import requests
+import pprint
+from time import sleep
 
 
 from sendgrid import SendGridAPIClient
@@ -67,6 +71,63 @@ def emailSend():
     print(response.body)
     print(response.headers)
     return {'message': "Email Sent - Powered by Twillio"}
+
+def assemblyAI():
+    headers = {
+    "authorization": os.getenv("ASSEMBLY_AI_KEY"),
+    "content-type": "application/json"
+    }
+    transcript_endpoint = "https://api.assemblyai.com/v2/transcript"
+    upload_endpoint = 'https://api.assemblyai.com/v2/upload'
+
+    def read_file(filename):
+        with open(filename, 'rb') as _file:
+            while True:
+                data = _file.read(5242880)
+                if not data:
+                    break
+                yield data
+
+    upload_response = requests.post(
+        upload_endpoint,
+        #Replace sys.argv[i] with file name instead
+        headers=headers, data=read_file(sys.argv[1])
+    )
+    print('Audio file uploaded')
+
+    #Call to create transcript from original audio
+    transcript_request = {'audio_url': upload_response.json()['upload_url'], "iab_categories": True, "auto_chapters": True}
+    transcript_response = requests.post(transcript_endpoint, json=transcript_request, headers=headers)
+    print('Transcription Requested')
+    pprint.pprint(transcript_response.json())
+    polling_response = requests.get(transcript_endpoint+"/"+transcript_response.json()['id'], headers=headers)
+
+    #FILENAME for summarized transcripts
+    filename = transcript_response.json()['id'] + '.txt'
+    while polling_response.json()['status'] != 'completed':
+        sleep(30)
+        polling_response = requests.get(transcript_endpoint+"/"+transcript_response.json()['id'], headers=headers)
+        print("File is", polling_response.json()['status'])
+
+    with open(filename, 'w') as f:
+        f.write( str(polling_response.json()))
+    print('Transcript saved to', filename)
+
+
+    #Might not need whats below this section, paragraphs can be obtained from summary sections
+    #Call to split transcript into paragraphs
+    paragraph_endpoint = "https://api.assemblyai.com/v2/transcript/%s/paragraphs"%transcript_response.json()['id']
+
+    paragraph_response = requests.get(paragraph_endpoint, headers=headers)
+    #print(paragraph_response.json())
+
+    #FILENAME for paragraphs
+    filename = transcript_response.json()['id']+"_content" + '.txt'
+    with open(filename, 'w') as f:
+        for paragraph in paragraph_response.json()['paragraphs']:
+            f.write(paragraph['text'])
+            f.write("\n")
+    print('Transcript saved to', filename)
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(24)
