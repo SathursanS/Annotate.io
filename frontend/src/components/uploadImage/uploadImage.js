@@ -5,6 +5,7 @@ import LinearProgress, {
   linearProgressClasses,
 } from '@mui/material/LinearProgress';
 import './uploadImage.css';
+import InputComponent from '../inputComponent';
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
