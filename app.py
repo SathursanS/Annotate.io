@@ -4,14 +4,14 @@ from flask import Flask, flash, request, redirect, url_for, session
 from werkzeug.utils import secure_filename
 from flask_cors import CORS, cross_origin
 import logging
-from dotenv import load_dotenv
 
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
 
-load_dotenv()
+
 logging.basicConfig(level=logging.INFO)
+
 logger = logging.getLogger('HELLO WORLD')
 
 
@@ -37,8 +37,8 @@ def fileUpload():
     
 
     message = Mail(
-        from_email='emailsendingpdf@gmail.com',
-        to_emails='emailsendingpdf@gmail.com',
+        from_email='stockerenghack@gmail.com',
+        to_emails='stockerenghack@gmail.com',
         subject='Sending with Twilio SendGrid is Fun',
         html_content='<strong>and easy to do anywhere, even with Python</strong>')
 
