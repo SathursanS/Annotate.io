@@ -67,13 +67,12 @@ def ytMp3():
 @app.route('/email', methods = ['POST'])
 def emailSend():
     toEmail = request.json['toEmail']
-    path = request.json['path']
     message = Mail(
-        from_email='stockerenghack@gmail.com',
+        from_email='sendgridenv@gmail.com ',
         to_emails=toEmail,
-        subject='Sending with Twilio SendGrid is Fun',
-        html_content='<strong>and easy to do anywhere, even with Python</strong>')
-    with open(f'Upload/{path}', 'rb') as f:
+        subject='Curated notes :) ',
+        html_content='As you requested here it is!')
+    with open('output.pdf', 'rb') as f:
         data = f.read()
         f.close()
     encoded_file = base64.b64encode(data).decode()
@@ -92,7 +91,6 @@ def emailSend():
     print(response.body)
     print(response.headers)
     return {'message': "Email Sent - Powered by Twillio"}
-
 @app.route('/assemblyAI', methods = ['POST'])
 def assemblyAI():
     filename = request.json['filename']
