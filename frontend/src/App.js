@@ -6,7 +6,7 @@ import { ReactComponent as Logo } from './images/annotate-logo.svg';
 import './App.css';
 
 function App() {
-  const [analysisInfo, setAnalysisInfo] = useState({});
+  const [analysisInfo, setAnalysisInfo] = useState(undefined);
 
   useEffect(() => {
     console.log(analysisInfo);
@@ -22,8 +22,8 @@ function App() {
             </span>{' '}
             <span className="title-offset">nnotate.io</span>
           </div>
-          <UploadImage />
-          <Transcript />
+          <UploadImage setAnalysisInfo={setAnalysisInfo} />
+          {analysisInfo && <Transcript analysisInfo={analysisInfo} />}
         </div>
       </div>
     </div>

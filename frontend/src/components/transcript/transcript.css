@@ -12,32 +12,28 @@
   text-align: center;
 }
 
-.summaryButton {
+.selected-button {
   padding: 15px 50px;
   margin: 30px 20px 20px 20px;
   border-radius: 2em;
   font-size: 25px;
   font-weight: 600;
   color: #ffffff;
-  background-color: #9575cd;
+  background-color: #7e57c2;
   text-align: center;
   border: 0;
   cursor: pointer;
   transition: all 0.2s;
 }
 
-.summaryButton:hover {
-  background-color: #7e57c2;
-}
-
-.transcriptButton {
+.transcript-button {
   padding: 15px 50px;
   margin: 30px 20px 20px 20px;
   border-radius: 2em;
   border-width: 2px;
   font-size: 25px;
   font-weight: 600;
-  color: #9575cd;
+  color: #7e57c2;
   background-color: white;
   text-align: center;
   border: 0;
@@ -45,14 +41,16 @@
   transition: all 0.2s;
 }
 
-.transcriptButton:hover {
-  background-color: #eee;
+.transcript-button:hover {
+  color: white;
+  background-color: #7e57c2;
 }
 
 .transcript-body-container {
   max-width: 1200px;
   margin: auto;
   margin-top: 60px;
+  margin-bottom: 60px;
   /* background-color: lightpink; */
 }
 
@@ -76,7 +74,7 @@
 }
 
 .paragraph-text {
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   margin-bottom: 10px;
 }
@@ -91,20 +89,10 @@
 .bubble-wrapper {
   background: #fb8c00;
   border-radius: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
   padding: 5px 15px;
   margin: 5px 10px 5px 0px;
 }
 
-.bubble-heading {
-  font-weight: 600;
-  font-size: 13px;
-  margin: 0 5px;
-}
-
 .bubble-text {
-  font-weight: 500;
   font-size: 16px;
 }
