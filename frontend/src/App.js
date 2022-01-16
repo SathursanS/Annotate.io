@@ -22,7 +22,7 @@ function App() {
             </span>{' '}
             <span className="title-offset">nnotate.io</span>
           </div>
-          <UploadImage />
+          <UploadImage setAnalysisInfo={setAnalysisInfo} />
           <Transcript />
         </div>
       </div>

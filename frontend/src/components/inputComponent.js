@@ -10,12 +10,14 @@ const InputComponent = (props) => {
         value={props.value}
         placeholder={props.placeholder}
         onChange={(e) => {
-          props.setValue(e.target.value);
+          props.handlerInput(e);
         }}
       />
-      <label className="choose-file-button" onClick={props.handler}>
-        {props.buttonText}
-      </label>
+      {props.showButton && (
+        <label className="choose-file-button" onClick={props.handlerButton}>
+          {props.buttonText}
+        </label>
+      )}
     </div>
   );
 };
