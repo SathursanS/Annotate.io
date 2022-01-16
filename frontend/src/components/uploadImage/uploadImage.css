@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   padding: 30px;
+  position: relative;
 }
 
 .upload-headline {
@@ -118,4 +119,16 @@
   cursor: pointer;
   transform: scale(1.025);
   transition: transform 0.1s ease-in-out;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 50px;
+  background-image: url('../../images/down-arrow.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }

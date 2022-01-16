@@ -6,6 +6,7 @@ import LinearProgress, {
 } from '@mui/material/LinearProgress';
 import './uploadImage.css';
 import InputComponent from '../inputComponent';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   height: 10,
@@ -19,7 +20,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   },
 }));
 
-const UploadImage = ({ setAnalysisInfo }) => {
+const UploadImage = ({ setAnalysisInfo, analysisInfo }) => {
   const [link, setLink] = useState('');
   const [loading, setLoading] = useState(false);
   const [loadingMessage, setLoadingMessage] = useState('');
@@ -155,6 +156,7 @@ const UploadImage = ({ setAnalysisInfo }) => {
           </div>
         )}
       </div>
+      {analysisInfo && <div className="down-arrow"></div>}
     </div>
   );
 };

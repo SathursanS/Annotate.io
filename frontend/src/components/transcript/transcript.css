@@ -14,7 +14,7 @@
 
 .selected-button {
   padding: 15px 50px;
-  margin: 30px 20px 20px 20px;
+  margin: 30px 10px 20px 10px;
   border-radius: 2em;
   font-size: 25px;
   font-weight: 600;
@@ -24,11 +24,12 @@
   border: 0;
   cursor: pointer;
   transition: all 0.2s;
+  flex: 1;
 }
 
 .transcript-button {
   padding: 15px 50px;
-  margin: 30px 20px 20px 20px;
+  margin: 30px 10px 20px 10px;
   border-radius: 2em;
   border-width: 2px;
   font-size: 25px;
@@ -39,6 +40,7 @@
   border: 0;
   cursor: pointer;
   transition: all 0.2s;
+  flex: 1;
 }
 
 .transcript-button:hover {
@@ -49,7 +51,7 @@
 .transcript-body-container {
   max-width: 1200px;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 60px;
   /* background-color: lightpink; */
 }
@@ -87,7 +89,7 @@
 }
 
 .bubble-wrapper {
-  background: #fb8c00;
+  background: #fb8a00cb;
   border-radius: 35px;
   padding: 5px 15px;
   margin: 5px 10px 5px 0px;
@@ -95,4 +97,26 @@
 
 .bubble-text {
   font-size: 16px;
+}
+
+.controls-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.controls-comp {
+  width: 100%;
+  margin: 10px;
+}
+
+.button-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
