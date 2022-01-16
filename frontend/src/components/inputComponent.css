@@ -20,14 +20,13 @@
   outline: none;
 }
 
-.choose-file-button {
+.choose-file-button-light {
   position: absolute;
   height: 100%;
-  background-color: red;
   top: 0;
   right: 0;
   border-radius: 35px;
-  background-color: #3c3885;
+  background-color: #7e57c2;
   padding: 10px 40px;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
@@ -41,7 +40,7 @@
   align-items: center;
 }
 
-.choose-file-button:hover {
+.choose-file-button-light:hover {
   cursor: pointer;
   transform: scale(1.025);
   transition: transform 0.1s ease-in-out;

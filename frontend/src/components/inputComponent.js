@@ -14,7 +14,10 @@ const InputComponent = (props) => {
         }}
       />
       {props.showButton && (
-        <label className="choose-file-button" onClick={props.handlerButton}>
+        <label
+          className="choose-file-button-light"
+          onClick={props.handlerButton}
+        >
           {props.buttonText}
         </label>
       )}
