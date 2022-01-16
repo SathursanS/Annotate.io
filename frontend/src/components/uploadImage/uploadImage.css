@@ -16,7 +16,7 @@
 }
 
 .upload-headline-emphasized {
-  font-size: 96;
+  /* font-size: 96; */
   font-weight: bold;
   background: -webkit-linear-gradient(top, #635bff, #3c3885);
   background-clip: text;

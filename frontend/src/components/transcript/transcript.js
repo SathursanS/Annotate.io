@@ -1,41 +1,47 @@
 import React, { useState, useEffect } from 'react';
 import './transcript.css';
 
-const Transcript = (props) => {
-  const { data } = props;
+const Transcript = ({ analysisInfo }) => {
   const [buttonType, setButtonType] = useState(1);
-  const [resultData, setResultData] = useState([
-    'Hello World',
-    'Coding is Fun!',
-    'Good day!',
-  ]);
+  // const [originalResultData, setOriginalResultData] = useState([]);
+  // const [filterResultData, setFilterResultData] = useState([]);
+  // const [topics, setTopics] = useState([]);
+  // const [filterTopics, setFilterTopics] = useState([]);
 
-  const [topics, setTopics] = useState(['topic 1', 'topic 2', 'topic 3']);
+  // analysisInfo &&
+  //   setOriginalResultData(analysisInfo['iab_categories_result']['results']);
 
-  // remember to update the textdata
-  //   useEffect(() => {
-  //     setResultData(data['iab_categories_result']['results']);
-  //   }, [data]);
+  analysisInfo && console.log(analysisInfo['iab_categories_result']['results']);
 
   return (
     <div className="transcript-main-container">
       <h2 className="transcript-header"></h2>
       <div className="button-container">
-        <button className="summaryButton" onClick={() => setButtonType(1)}>
+        <button
+          className={`${
+            buttonType !== 1 ? 'transcript-button' : 'selected-button'
+          }`}
+          onClick={() => setButtonType(1)}
+        >
           Chapter Summary
         </button>
-        <button className="transcriptButton" onClick={() => setButtonType(2)}>
+        <button
+          className={`${
+            buttonType !== 2 ? 'transcript-button' : 'selected-button'
+          }`}
+          onClick={() => setButtonType(2)}
+        >
           Transcript
         </button>
       </div>
 
       {buttonType === 1 && (
         <div className="transcript-body-container">
-          {resultData.map((item) => {
+          {analysisInfo['chapters'].map((item) => {
             return (
               <div className="paragraph-card">
-                <h3 className="chapter-heading">{item}</h3>
-                <p className="paragraph-text">{item}</p>
+                <h3 className="chapter-heading">{item['gist']}</h3>
+                <p className="paragraph-text">{item['summary']}</p>
               </div>
             );
           })}
@@ -44,15 +50,15 @@ const Transcript = (props) => {
 
       {buttonType === 2 && (
         <div className="transcript-body-container">
-          {resultData.map((item) => {
+          {analysisInfo['iab_categories_result']['results'].map((item) => {
+            const list = item['labels'][0]['label'].split('>');
             return (
               <div className="paragraph-card">
-                <p className="paragraph-text">{item}</p>
+                <p className="paragraph-text">{item['text']}</p>
                 <div className="bubbles-container">
-                  {topics.map((topic) => {
+                  {list.map((topic) => {
                     return (
                       <div className="bubble-wrapper">
-                        <p className="bubble-heading">TOPIC</p>
                         <p className="bubble-text">{topic}</p>
                       </div>
                     );
