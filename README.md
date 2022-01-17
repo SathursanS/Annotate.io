@@ -2,6 +2,8 @@
 Delta Hacks 8 - 2nd Overall, Best Productivity Hack Winner <br>
 Annotate.io is an education & productivity platform that creates dynamic study sheets to increase active learning based on lectures or videos in real time!
 
+Devpost: https://devpost.com/software/annotate-ai-m1hsjq
+
 ## Inspiration 💡
 With school being remote, and online lectures being prominent. It is sometimes hard making clear and concise notes because profs may have a hard accent you are not used to, or perhaps your audio on your laptop is not the best or even because the house is too loud! What if there was an application that can transcribe your online lectures and summarize as well as point out key concepts! This would improve your study productivity and even promote active learning! Well that's exactly what we wanted to build! Using Assembly AI and Twilio we built a notes assistant to help build concise and elegant study sheets based on your lectures! Our product boosts productivity, as we create interactive study sheets to increase active learning and recall! 
 
